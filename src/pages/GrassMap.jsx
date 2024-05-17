@@ -16,6 +16,8 @@ function GrassMap() {
   const [route, setRoute] = useState(null); // Pour stocker l'itinéraire
   const [questMessage, setQuestMessage] = useState(""); // Pour stocker le message de la quête en cours
 
+  const hasShownWelcomeToasts = useRef(false); // Use ref to track if welcome toasts have been shown
+
   const encouragement = [
     "Tu es capable de grandes choses.",
     "Ne baisse jamais les bras.",
@@ -62,27 +64,31 @@ function GrassMap() {
   const toastTimeouts = useRef([]);
 
   useEffect(() => {
-    toast.info("Bienvenue dans Va toucher de l'herbe !", {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      transition: Slide,
-    });
+    if (!hasShownWelcomeToasts.current) {
+      toast.info("Bienvenue dans Va toucher de l'herbe !", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        transition: Slide,
+      });
 
-    toast.info("Prêt à découvrir de nouveaux endroits et à toucher de l'herbe ?", {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      transition: Slide,
-    });
+      toast.info("Prêt à découvrir de nouveaux endroits et à toucher de l'herbe ?", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        transition: Slide,
+      });
+
+      hasShownWelcomeToasts.current = true; // Mark welcome toasts as shown
+    }
 
     const initializeMap = ({ setMap, mapboxgl }) => {
       const map = new mapboxgl.Map({
@@ -303,7 +309,7 @@ function GrassMap() {
 
   return (
     <div>
-      <div id="map" style={{ width: "100%", height: "100vh" }} />
+      <div id="map" style={{ width: "100%", height: "100vh", cursor: "grab" }} />
       <ToastContainer 
         position="top-center"
         autoClose={false}
