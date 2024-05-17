@@ -16,6 +16,51 @@ function GrassMap() {
   const [route, setRoute] = useState(null); // Pour stocker l'itinéraire
   const [questMessage, setQuestMessage] = useState(""); // Pour stocker le message de la quête en cours
 
+  const encouragement = [
+    "Tu es capable de grandes choses.",
+    "Ne baisse jamais les bras.",
+    "Chaque effort compte.",
+    "Tu es plus fort(e) que tu ne le penses.",
+    "Continue d'avancer, tu es sur la bonne voie.",
+    "Les échecs sont des leçons déguisées.",
+    "Tu as tout ce qu'il faut pour réussir.",
+    "La persévérance paie toujours.",
+    "Crois en toi et en tes capacités.",
+    "Chaque jour est une nouvelle opportunité.",
+    "Ne te compare pas aux autres, avance à ton rythme.",
+    "Les petits progrès mènent à de grandes réussites.",
+    "Tu es une source d'inspiration.",
+    "Ne laisse jamais le doute t'arrêter.",
+    "Rien n'est impossible avec de la détermination.",
+    "Tu es en train de devenir la meilleure version de toi-même.",
+    "Le chemin peut être difficile, mais il en vaut la peine.",
+    "Tu es sur la bonne route, continue d'avancer.",
+    "N'oublie pas de célébrer chaque victoire, aussi petite soit-elle.",
+    "Tu es plus près de ton objectif que tu ne le crois.",
+    "T'es vraiment sur le fuseau horaire du décalage horaire, même pour une tortue.",
+    "Si la lenteur était un sport olympique, tu serais un champion du monde.",
+    "Tu prends ton temps comme si le temps était illimité.",
+    "Même les escargots se demandent pourquoi tu vas si lentement.",
+    "T'as déjà pensé à louer un escargot pour accélérer un peu les choses ?",
+    "Ton horloge biologique doit être sur pause permanente.",
+    "Je ne suis pas sûr(e) si tu marches ou si tu as juste oublié comment courir.",
+    "Le monde tourne à la vitesse de la lumière, et toi tu es là, à la vitesse d'une tortue asthmatique.",
+    "Si tu avais été un super-héros, tu aurais été 'Captain Lenteur'.",
+    "Tu vas tellement lentement que même les molécules te dépassent.",
+    "Je vais appeler la NASA, ils pourraient avoir besoin de toi pour ralentir certaines de leurs missions.",
+    "Les cinq minutes avec toi, c'est comme un voyage dans un trou noir, le temps s'étire à l'infini.",
+    "J'ai demandé à une plante de te suivre, elle m'a dit qu'elle avait mieux à faire.",
+    "T'es tellement lent(e) que les gens te passent en marchant.",
+    "J'ai vu des glaciers bouger plus vite que toi.",
+    "Les tortues te prennent en photo pour se rappeler ce qu'est la lenteur.",
+    "Ton concept de 'rapidité' est un peu flou, non ?",
+    "Si tu participais à une course, les gens auraient le temps de se marier, de fonder une famille et de prendre leur retraite avant que tu arrives à la ligne d'arrivée.",
+    "Même les GIFs de chargement te trouvent lent(e).",
+    "Quand tu dis 'bientôt', les gens prévoient en fait pour l'année prochaine."
+  ];
+
+  const toastTimeouts = useRef([]);
+
   useEffect(() => {
     toast.info("Bienvenue dans Va toucher de l'herbe !", {
       position: "top-center",
@@ -99,9 +144,15 @@ function GrassMap() {
     };
 
     if (!map) initializeMap({ setMap, mapboxgl });
-  }, []); // Add an empty dependency array to ensure it runs only once
+  }, [map, userMarker]);
+
+  const clearAllTimeouts = () => {
+    toastTimeouts.current.forEach((timeout) => clearTimeout(timeout));
+    toastTimeouts.current = [];
+  };
 
   const setRandomTargetLocation = (map) => {
+    clearAllTimeouts(); // Clear existing timeouts
     const target = getRandomCoordinates();
     if (target) {
       const { lng, lat, name, address } = target;
@@ -162,6 +213,25 @@ function GrassMap() {
       }, 6000); // Reduced delay before returning to user location
 
       getRoute([lng, lat]);
+
+      const initialDelay = 10000;
+      const interval = 6000;
+      encouragement.forEach((message, index) => {
+        const timeout = setTimeout(() => {
+          toast(message, {
+            position: "bottom-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Slide,
+          });
+        }, initialDelay + index * interval);
+        toastTimeouts.current.push(timeout);
+      });
     } else {
       console.error("Invalid coordinates");
     }
