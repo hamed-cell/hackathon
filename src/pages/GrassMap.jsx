@@ -58,15 +58,10 @@ function GrassMap() {
               const { longitude, latitude } = position.coords;
               setUserLocation([longitude, latitude]);
 
-              if (map) {
-                map.flyTo({
-                  center: [longitude, latitude],
-                  zoom: 14,
-                  speed: 1.2,
-                  curve: 1.42,
-                  duration: 3000 // Duration for following the user location
-                });
-              }
+              // Update user location marker without recentering the map
+              const userMarker = new mapboxgl.Marker({ color: "blue" })
+                .setLngLat([longitude, latitude])
+                .addTo(map);
             },
             (error) => console.error(error),
             { enableHighAccuracy: true }
