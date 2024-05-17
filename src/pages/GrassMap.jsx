@@ -11,11 +11,26 @@ function GrassMap() {
 
   const [map, setMap] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
+  const [userMarker, setUserMarker] = useState(null); // Pour stocker le marqueur utilisateur
   const [targetMarker, setTargetMarker] = useState(null); // Pour stocker le marqueur cible
   const [route, setRoute] = useState(null); // Pour stocker l'itinéraire
+  const [questMessage, setQuestMessage] = useState(""); // Pour stocker le message de la quête en cours
 
   useEffect(() => {
-    toast.success("Bienvenue sur Touch Grass! Il est temps de toucher de l'herbe!");
+    if (!map) {
+      toast.success("Bienvenue sur Va toucher de l'herbe!", {
+        position: "top-center",
+        autoClose: 5000,
+        closeOnClick: true,
+        draggable: true,
+      });
+      toast.info("Préparez-vous à explorer!", {
+        position: "top-center",
+        autoClose: 5000,
+        closeOnClick: true,
+        draggable: true,
+      });
+    }
 
     const initializeMap = ({ setMap, mapboxgl }) => {
       const map = new mapboxgl.Map({
@@ -45,9 +60,11 @@ function GrassMap() {
                 duration: 5000 // Longer duration for better optimization on mobile
               });
 
-              new mapboxgl.Marker({ color: "blue" })
+              const marker = new mapboxgl.Marker({ color: "blue" })
                 .setLngLat([longitude, latitude])
                 .addTo(map);
+
+              setUserMarker(marker);
             },
             (error) => console.error(error),
             { enableHighAccuracy: true }
@@ -59,9 +76,15 @@ function GrassMap() {
               setUserLocation([longitude, latitude]);
 
               // Update user location marker without recentering the map
-              const userMarker = new mapboxgl.Marker({ color: "blue" })
-                .setLngLat([longitude, latitude])
-                .addTo(map);
+              if (userMarker) {
+                userMarker.setLngLat([longitude, latitude]);
+              } else {
+                const marker = new mapboxgl.Marker({ color: "blue" })
+                  .setLngLat([longitude, latitude])
+                  .addTo(map);
+
+                setUserMarker(marker);
+              }
             },
             (error) => console.error(error),
             { enableHighAccuracy: true }
@@ -71,12 +94,20 @@ function GrassMap() {
     };
 
     if (!map) initializeMap({ setMap, mapboxgl });
-  }, [map]);
+  }, [map, userMarker]);
 
   const setRandomTargetLocation = (map) => {
     const target = getRandomCoordinates();
     if (target) {
-      const { lng, lat, name } = target;
+      const { lng, lat, name, address } = target;
+
+      // Afficher un toast en haut de l'écran avec l'adresse du nouveau point cible
+      toast.info(`Vous allez toucher de l'herbe à ${name}, ${address}`, {
+        position: "top-center",
+        autoClose: false,
+        closeOnClick: true,
+        draggable: true,
+      });
 
       if (targetMarker) {
         // Update the existing marker and its popup
@@ -127,6 +158,9 @@ function GrassMap() {
             duration: 5000, // Duration for returning to user location
             essential: true
           });
+
+          // Mettre à jour le message de la quête en cours
+          setQuestMessage(`Vous allez toucher de l'herbe à ${name}, ${address}`);
         }
       }, 8000); // Delay before returning to user location
 
@@ -188,12 +222,25 @@ function GrassMap() {
     setRoute(route);
   };
 
+  const centerOnUserLocation = () => {
+    if (userLocation && map) {
+      map.flyTo({
+        center: userLocation,
+        zoom: 14,
+        speed: 1.2,
+        curve: 1.42,
+        duration: 3000, // Duration for centering on user location
+        essential: true
+      });
+    }
+  };
+
   return (
     <div>
       <div id="map" style={{ width: "100%", height: "100vh" }} />
       <ToastContainer 
-        position="bottom-center"
-        autoClose={5000}
+        position="top-center"
+        autoClose={false}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -202,23 +249,49 @@ function GrassMap() {
         draggable
         pauseOnHover
       />
-      <button
-        onClick={() => setRandomTargetLocation(map)}
-        style={{
+      <div style={{ position: "absolute", bottom: "10px", left: "50%", transform: "translateX(-50%)", display: "flex", gap: "10px" }}>
+        <button
+          onClick={() => setRandomTargetLocation(map)}
+          style={{
+            padding: "10px 20px",
+            backgroundColor: "#28a745",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Nouvel objectif
+        </button>
+        <button
+          onClick={centerOnUserLocation}
+          style={{
+            padding: "10px 20px",
+            backgroundColor: "#007bff",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Centrer
+        </button>
+      </div>
+      {questMessage && (
+        <div style={{
           position: "absolute",
-          bottom: "10px",
+          top: "10px",
           left: "50%",
           transform: "translateX(-50%)",
           padding: "10px 20px",
           backgroundColor: "#28a745",
           color: "white",
-          border: "none",
           borderRadius: "5px",
-          cursor: "pointer",
-        }}
-      >
-        Nouvel objectif
-      </button>
+          zIndex: 1000
+        }}>
+          {questMessage}
+        </div>
+      )}
     </div>
   );
 }
