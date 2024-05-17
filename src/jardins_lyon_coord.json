@@ -1,0 +1,38 @@
+[
+  {
+    "uid": "PAR-69029-001",
+    "nom": "Parc du Fort de Bron",
+    "adresse": "Chemin Vieux",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 85000.0,
+    "coordinates": [4.92166672, 45.72939395]
+  },
+  {
+    "uid": "PAR-69029-002",
+    "nom": "Parc du Grand Cèdre",
+    "adresse": "Impasse Callemard",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 8300.0,
+    "coordinates": [4.90006117, 45.7352525]
+  },
+  {
+    "uid": "PAR-69029-003",
+    "nom": "Parc de Parilly",
+    "adresse": "36 Boulevard Emile Bollaert",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 178000.0,
+    "coordinates": [4.90176148, 45.7114683]
+  },
+  {
+    "uid": "PAR-69029-004",
+    "nom": "Parc des Essarts",
+    "adresse": "Rue des Essarts",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 88200.0,
+    "coordinates": [4.89378502, 45.72973483]
+  }
+]
