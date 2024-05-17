@@ -14,23 +14,6 @@ function GrassMap() {
   const [targetMarker, setTargetMarker] = useState(null); // Pour stocker le marqueur cible
   const [route, setRoute] = useState(null); // Pour stocker l'itinéraire
 
-  const geojson = {
-    type: "FeatureCollection",
-    features: [
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [-77.032, 38.913],
-        },
-        properties: {
-          title: "Mapbox",
-          description: "Washington, D.C.",
-        },
-      }
-    ],
-  };
-
   useEffect(() => {
     toast.success("Bienvenue sur Touch Grass! Il est temps de toucher de l'herbe!");
 
@@ -38,87 +21,58 @@ function GrassMap() {
       const map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/mapbox/streets-v12",
-        center: [-74.5, 40],
-        zoom: 9,
+        center: [0, 0],
+        zoom: 1,
       });
 
       map.on("load", () => {
         setMap(map);
         map.resize();
 
-        // Add nature points
-        geojson.features.forEach((feature) => {
-          new mapboxgl.Marker()
-            .setLngLat(feature.geometry.coordinates)
-            .setPopup(
-              new mapboxgl.Popup({ offset: 25 }).setText(
-                `${feature.properties.title} - ${feature.properties.description}`
-              )
-            )
-            .addTo(map);
-        });
+        // Add a global view then zoom to user location
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            (position) => {
+              const { longitude, latitude } = position.coords;
+              setUserLocation([longitude, latitude]);
 
-        // Create a single target marker that will be reused
-        const initialTarget = getRandomCoordinates();
-        if (initialTarget) {
-          const { lng, lat, name } = initialTarget;
-
-          // Create an HTML element for the custom marker
-          const el = document.createElement('div');
-          el.className = 'marker';
-          el.style.backgroundColor = 'green';
-          el.style.width = '30px';
-          el.style.height = '30px';
-          el.style.borderRadius = '50%';
-
-          const marker = new mapboxgl.Marker(el)
-            .setLngLat([lng, lat])
-            .setPopup(
-              new mapboxgl.Popup({ offset: 25 }).setText(
-                `Point à atteindre: ${name}`
-              )
-            )
-            .addTo(map);
-
-          setTargetMarker(marker);
-        }
-      });
-
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-          (position) => {
-            const { longitude, latitude } = position.coords;
-            setUserLocation([longitude, latitude]);
-
-            new mapboxgl.Marker({ color: "blue" })
-              .setLngLat([longitude, latitude])
-              .addTo(map);
-
-            map.flyTo({
-              center: [longitude, latitude],
-              zoom: 14,
-            });
-          },
-          (error) => console.error(error),
-          { enableHighAccuracy: true }
-        );
-
-        navigator.geolocation.watchPosition(
-          (position) => {
-            const { longitude, latitude } = position.coords;
-            setUserLocation([longitude, latitude]);
-
-            if (map) {
+              // Animate the camera to the user's location
               map.flyTo({
                 center: [longitude, latitude],
                 zoom: 14,
+                speed: 1.2,
+                curve: 1.42,
+                duration: 5000 // Longer duration for better optimization on mobile
               });
-            }
-          },
-          (error) => console.error(error),
-          { enableHighAccuracy: true }
-        );
-      }
+
+              new mapboxgl.Marker({ color: "blue" })
+                .setLngLat([longitude, latitude])
+                .addTo(map);
+            },
+            (error) => console.error(error),
+            { enableHighAccuracy: true }
+          );
+
+          navigator.geolocation.watchPosition(
+            (position) => {
+              const { longitude, latitude } = position.coords;
+              setUserLocation([longitude, latitude]);
+
+              if (map) {
+                map.flyTo({
+                  center: [longitude, latitude],
+                  zoom: 14,
+                  speed: 1.2,
+                  curve: 1.42,
+                  duration: 3000 // Duration for following the user location
+                });
+              }
+            },
+            (error) => console.error(error),
+            { enableHighAccuracy: true }
+          );
+        }
+      });
     };
 
     if (!map) initializeMap({ setMap, mapboxgl });
@@ -163,11 +117,25 @@ function GrassMap() {
         zoom: 14,
         speed: 1.2,
         curve: 1.42,
-        easing: (t) => t,
+        duration: 5000, // Duration to target location
         essential: true
       });
 
-      // Obtenir l'itinéraire de l'utilisateur vers le marqueur cible
+      // Return the camera to the user's location after a delay
+      setTimeout(() => {
+        if (userLocation) {
+          map.flyTo({
+            center: userLocation,
+            zoom: 14,
+            speed: 1.2,
+            curve: 1.42,
+            duration: 5000, // Duration for returning to user location
+            essential: true
+          });
+        }
+      }, 8000); // Delay before returning to user location
+
+      // Get the route from the user location to the target location
       getRoute([lng, lat]);
     } else {
       console.error("Invalid coordinates");
