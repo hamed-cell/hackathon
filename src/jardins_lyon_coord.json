@@ -6,16 +6,22 @@
     "codepost": 69500,
     "commune": "Bron",
     "surface_m2": 85000.0,
-    "coordinates": [4.92166672, 45.72939395]
+    "coordinates": [
+      4.92166672,
+      45.72939395
+    ]
   },
   {
     "uid": "PAR-69029-002",
-    "nom": "Parc du Grand Cèdre",
+    "nom": "Parc du Grand C\u00e8dre",
     "adresse": "Impasse Callemard",
     "codepost": 69500,
     "commune": "Bron",
     "surface_m2": 8300.0,
-    "coordinates": [4.90006117, 45.7352525]
+    "coordinates": [
+      4.90006117,
+      45.7352525
+    ]
   },
   {
     "uid": "PAR-69029-003",
@@ -24,7 +30,10 @@
     "codepost": 69500,
     "commune": "Bron",
     "surface_m2": 178000.0,
-    "coordinates": [4.90176148, 45.7114683]
+    "coordinates": [
+      4.90176148,
+      45.7114683
+    ]
   },
   {
     "uid": "PAR-69029-004",
@@ -33,6 +42,6081 @@
     "codepost": 69500,
     "commune": "Bron",
     "surface_m2": 88200.0,
-    "coordinates": [4.89378502, 45.72973483]
+    "coordinates": [
+      4.89378502,
+      45.72973483
+    ]
+  },
+  {
+    "uid": "PAR-69029-005",
+    "nom": "Square Grimma",
+    "adresse": "Place du 11 novembre",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 2100.0,
+    "coordinates": [
+      4.90938938,
+      45.73185574
+    ]
+  },
+  {
+    "uid": "PAR-69029-006",
+    "nom": "Terrain d'aventures",
+    "adresse": "Angle Romain Rolland Pierre Brossolette",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 3500.0,
+    "coordinates": [
+      4.9177152,
+      45.7450632
+    ]
+  },
+  {
+    "uid": "PAR-69029-007",
+    "nom": "Square Caravelle",
+    "adresse": "Rue Suzanne Melk",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 3700.0,
+    "coordinates": [
+      4.91990412,
+      45.74708494
+    ]
+  },
+  {
+    "uid": "PAR-69029-008",
+    "nom": "Jardin des Gen\u00eats",
+    "adresse": "10 Rue Daligand",
+    "codepost": 69500,
+    "commune": "Bron",
+    "surface_m2": 1900.0,
+    "coordinates": [
+      4.90442315,
+      45.75000895
+    ]
+  },
+  {
+    "uid": "PAR-69040-001",
+    "nom": "Parc Simone Veil",
+    "adresse": "Rue de la Mairie",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 3031.0,
+    "coordinates": [
+      4.79112099,
+      45.7948057
+    ]
+  },
+  {
+    "uid": "PAR-69040-002",
+    "nom": "Parc des Lutins",
+    "adresse": "Rue Jean-Marie Michel",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 600.0,
+    "coordinates": [
+      4.79037472,
+      45.79523702
+    ]
+  },
+  {
+    "uid": "PAR-69040-003",
+    "nom": "Parc des Loustics",
+    "adresse": "Rue de la Mairie",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 1877.0,
+    "coordinates": [
+      4.79099819,
+      45.79436366
+    ]
+  },
+  {
+    "uid": "PAR-69040-004",
+    "nom": "Parc des Pastourelles",
+    "adresse": "Boulevard de la R\u00e9publique",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 2378.0,
+    "coordinates": [
+      4.78828568,
+      45.79527481
+    ]
+  },
+  {
+    "uid": "PAR-69040-005",
+    "nom": "Espace de loisirs du Coulouvrier",
+    "adresse": "Chemin du Coulouvrier",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 3460.0,
+    "coordinates": [
+      4.77872896,
+      45.79645701
+    ]
+  },
+  {
+    "uid": "PAR-69040-006",
+    "nom": "Square Claude Girardon",
+    "adresse": "Rue Bellevue",
+    "codepost": 69410,
+    "commune": "Champagne-au-Mont-d'Or",
+    "surface_m2": 400.0,
+    "coordinates": [
+      4.78479795,
+      45.79591877
+    ]
+  },
+  {
+    "uid": "PAR-69191-001",
+    "nom": "Parc de la Mairie",
+    "adresse": "13 Rue Jean et Catherine Reynier",
+    "codepost": 69450,
+    "commune": "Saint-Cyr-au-Mont-d'Or",
+    "surface_m2": 7000.0,
+    "coordinates": [
+      4.81742443,
+      45.81522714
+    ]
+  },
+  {
+    "uid": "PAR-69191-002",
+    "nom": "Jardin de poche de la Chaux",
+    "adresse": "Angle rue la Chaux - Rue Jean-Baptiste Perret",
+    "codepost": 69450,
+    "commune": "Saint-Cyr-au-Mont-d'Or",
+    "surface_m2": 640.0,
+    "coordinates": [
+      4.83477214,
+      45.81702207
+    ]
+  },
+  {
+    "uid": "PAR-69194-001",
+    "nom": "Giverdy",
+    "adresse": "8 Avenue Amp\u00e8re",
+    "codepost": 69370,
+    "commune": "Saint-Didier-au-Mont-d'Or",
+    "surface_m2": 23000.0,
+    "coordinates": [
+      4.79457214,
+      45.83181425
+    ]
+  },
+  {
+    "uid": "PAR-69194-002",
+    "nom": "Jardin de la Goye",
+    "adresse": "1 All\u00e9e du 19 mars",
+    "codepost": 69370,
+    "commune": "Saint-Didier-au-Mont-d'Or",
+    "surface_m2": 615.0,
+    "coordinates": [
+      4.79691796,
+      45.81154563
+    ]
+  },
+  {
+    "uid": "PAR-69256-001",
+    "nom": "Parc Elsa Triolet",
+    "adresse": "137 Avenue du 8 mai 1945",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 30555.0,
+    "coordinates": [
+      4.92049919,
+      45.78703997
+    ]
+  },
+  {
+    "uid": "PAR-69256-002",
+    "nom": "Jardin de la Paix et des Libert\u00e9s",
+    "adresse": "Rue Condorcet",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 10693.0,
+    "coordinates": [
+      4.91737067,
+      45.77779532
+    ]
+  },
+  {
+    "uid": "PAR-69256-003",
+    "nom": "Square Danielle Casanova",
+    "adresse": "Avenue Roger Salengro",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 4373.0,
+    "coordinates": [
+      4.92650047,
+      45.75700186
+    ]
+  },
+  {
+    "uid": "PAR-69256-005",
+    "nom": "Grand Parc Miribel Jonage",
+    "adresse": "Chemin de la Bletta",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1896332.0,
+    "coordinates": [
+      4.94137732,
+      45.79791127
+    ]
+  },
+  {
+    "uid": "PAR-69256-006",
+    "nom": "Square Manouchian",
+    "adresse": "Avenue Garibaldi",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 685.0,
+    "coordinates": [
+      4.92995767,
+      45.76627164
+    ]
+  },
+  {
+    "uid": "PAR-69256-007",
+    "nom": "Square Georges Seguin",
+    "adresse": "Rue Georges Seguin",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2883.0,
+    "coordinates": [
+      4.92014833,
+      45.78180102
+    ]
+  },
+  {
+    "uid": "PAR-69256-008",
+    "nom": "Parc du Ch\u00e2teau",
+    "adresse": "Rue Franklin",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 4361.0,
+    "coordinates": [
+      4.92756859,
+      45.78670198
+    ]
+  },
+  {
+    "uid": "PAR-69256-009",
+    "nom": "Parc Fran\u00e7ois Mitterrand",
+    "adresse": "Avenue Eug\u00e8ne Henaff",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 24529.0,
+    "coordinates": [
+      4.92783925,
+      45.77479046
+    ]
+  },
+  {
+    "uid": "PAR-69256-010",
+    "nom": "Square Pierre Brossolette",
+    "adresse": "Square Pierre Brossolette",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1549.0,
+    "coordinates": [
+      4.93083808,
+      45.75640934
+    ]
+  },
+  {
+    "uid": "PAR-69256-013",
+    "nom": "Jardin astronomique du Plan\u00e9tarium",
+    "adresse": "Place de la Nation",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2782.0,
+    "coordinates": [
+      4.92272617,
+      45.77790281
+    ]
+  },
+  {
+    "uid": "PAR-69256-019",
+    "nom": "Espace No\u00eblle Gr\u00e9goire",
+    "adresse": "8 Rue G\u00e9n\u00e9ral Charles Delestraint",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 8271.0,
+    "coordinates": [
+      4.91045635,
+      45.7899818
+    ]
+  },
+  {
+    "uid": "PAR-69256-021",
+    "nom": "Plateau Rousseau",
+    "adresse": "4 Rue Maurice Audin",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 12033.0,
+    "coordinates": [
+      4.92211315,
+      45.78069457
+    ]
+  },
+  {
+    "uid": "PAR-69256-022",
+    "nom": "Place Roger Laurent",
+    "adresse": "Place Roger Laurent",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2090.0,
+    "coordinates": [
+      4.91963347,
+      45.7711782
+    ]
+  },
+  {
+    "uid": "PAR-69256-023",
+    "nom": "Parc de la Rize",
+    "adresse": "Avenue Grandcl\u00e9ment",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 113997.0,
+    "coordinates": [
+      4.92468097,
+      45.77024934
+    ]
+  },
+  {
+    "uid": "PAR-69256-024",
+    "nom": "Promenade jardin\u00e9e",
+    "adresse": "Rue Andr\u00e9 Ch\u00e9nier",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 3950.0,
+    "coordinates": [
+      4.92401964,
+      45.75347077
+    ]
+  },
+  {
+    "uid": "PAR-69283-001",
+    "nom": "Parc Charles Perrault",
+    "adresse": "1 rue d'Italie",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": 4320.0,
+    "coordinates": [
+      4.93834338,
+      45.67812012
+    ]
+  },
+  {
+    "uid": "PAR-69283-002",
+    "nom": "Parc Nelson Mandela",
+    "adresse": "1 rue Mangetemps",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": 2619.0,
+    "coordinates": [
+      4.94936493,
+      45.66979509
+    ]
+  },
+  {
+    "uid": "PAR-69283-003",
+    "nom": "Parc Marcel Moiroud",
+    "adresse": "1 route de Toussieu",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": null,
+    "coordinates": [
+      4.96928976,
+      45.66099537
+    ]
+  },
+  {
+    "uid": "PAR-69283-004",
+    "nom": "Parc Th\u00e9odore Monod",
+    "adresse": "3 avenue Charles de Gaulle",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": 7575.0,
+    "coordinates": [
+      4.95514621,
+      45.66404947
+    ]
+  },
+  {
+    "uid": "PAR-69283-005",
+    "nom": "Square Agn\u00e8s Neyret",
+    "adresse": "1 avenue Jean Jaur\u00e8s",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": 1145.0,
+    "coordinates": [
+      4.95301523,
+      45.66678073
+    ]
+  },
+  {
+    "uid": "PAR-69283-006",
+    "nom": "Square Horni Pocernice",
+    "adresse": "1 rue de la R\u00e9publique",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": 1774.0,
+    "coordinates": [
+      4.95719276,
+      45.66482229
+    ]
+  },
+  {
+    "uid": "PAR-69283-007",
+    "nom": "Square Imbert Colom\u00e8s",
+    "adresse": "",
+    "codepost": 69780,
+    "commune": "Mions",
+    "surface_m2": null,
+    "coordinates": [
+      4.96024494,
+      45.67492765
+    ]
+  },
+  {
+    "uid": "PAR-69286-001",
+    "nom": "Parc Brosset",
+    "adresse": "60 Rue Alexendre BERARD",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 27289.0,
+    "coordinates": [
+      4.89643934,
+      45.82128421
+    ]
+  },
+  {
+    "uid": "PAR-69286-003",
+    "nom": "Les parcs urbain de Vancia",
+    "adresse": "6 Rue de l'\u00e9cole",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 9815.0,
+    "coordinates": [
+      4.90919743,
+      45.83471382
+    ]
+  },
+  {
+    "uid": "PAR-69286-005",
+    "nom": "Parc de cr\u00e9pieux",
+    "adresse": "18 All\u00e9e des Cypr\u00e8s",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 4345.0,
+    "coordinates": [
+      4.88469542,
+      45.80499958
+    ]
+  },
+  {
+    "uid": "PAR-69286-006",
+    "nom": "Parc du chemin du creux",
+    "adresse": "470 Chemin du Creux",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 3716.0,
+    "coordinates": [
+      4.89270814,
+      45.82816883
+    ]
+  },
+  {
+    "uid": "PAR-69286-007",
+    "nom": "Parc de la mont\u00e9e de Castellane",
+    "adresse": "52 Mont\u00e9e de Castellane",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 12841.0,
+    "coordinates": [
+      4.8989888,
+      45.81353335
+    ]
+  },
+  {
+    "uid": "PAR-69286-008",
+    "nom": "Parc des Horizons",
+    "adresse": "10 Boulevard De Lattre de Tassigny",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 10804.0,
+    "coordinates": [
+      4.90440762,
+      45.81202847
+    ]
+  },
+  {
+    "uid": "PAR-69383-53333",
+    "nom": "Berge du Rh\u00f4ne 3e",
+    "adresse": "1 Quai Victor Auganeur",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 32786.66,
+    "coordinates": [
+      4.83936193,
+      45.75649135
+    ]
+  },
+  {
+    "uid": "PAR-69386-56129",
+    "nom": "Berge du Rh\u00f4ne 6e",
+    "adresse": "15 Berge du Rh\u00f4ne 6e",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 32435.53,
+    "coordinates": [
+      4.84075591,
+      45.76372487
+    ]
+  },
+  {
+    "uid": "PAR-69387-57233",
+    "nom": "Berges du Rh\u00f4ne 7e",
+    "adresse": "1 Berge du Rh\u00f4ne 7e",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 47796.09,
+    "coordinates": [
+      4.82446261,
+      45.73790288
+    ]
+  },
+  {
+    "uid": "PAR-69383-03016",
+    "nom": "Bois des Ch\u00eanes",
+    "adresse": "37 Rue Jules Massenet",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 10201.92,
+    "coordinates": [
+      4.89212212,
+      45.74877175
+    ]
+  },
+  {
+    "uid": "PAR-69381-51002",
+    "nom": "Esplanade du Gros Caillou",
+    "adresse": "180 Bd de la Croix Rousse",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 12872.66,
+    "coordinates": [
+      4.83532028,
+      45.77427468
+    ]
+  },
+  {
+    "uid": "PAR-69383-03390",
+    "nom": "Esplanade Nelson Mandela",
+    "adresse": "128 Av F\u00e9lix Faure",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 27706.61,
+    "coordinates": [
+      4.86397827,
+      45.75089941
+    ]
+  },
+  {
+    "uid": "PAR-69383-03425",
+    "nom": "Jardin Abb\u00e9 Boisard",
+    "adresse": "133 Cours Gambetta",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1707.83,
+    "coordinates": [
+      4.85735497,
+      45.75045936
+    ]
+  },
+  {
+    "uid": "PAR-69385-05110",
+    "nom": "Jardin Andr\u00e9 Malraux",
+    "adresse": "1 Place des Minimes",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 3334.82,
+    "coordinates": [
+      4.82131351,
+      45.7582574
+    ]
+  },
+  {
+    "uid": "PAR-69382-02246",
+    "nom": "Jardin Aquatique Jean Couty",
+    "adresse": "1 Quai Rambaud",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 11888.11,
+    "coordinates": [
+      4.81457852,
+      45.74152392
+    ]
+  },
+  {
+    "uid": "PAR-69382-02247",
+    "nom": "Jardin Aquatique Ouagadougou",
+    "adresse": "1 Quai Rambaud",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 9718.57,
+    "coordinates": [
+      4.81484855,
+      45.74359235
+    ]
+  },
+  {
+    "uid": "PAR-69381-01215",
+    "nom": "Jardin aux Simples",
+    "adresse": "40 Rue de Crim\u00e9e",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1300.17,
+    "coordinates": [
+      4.8309173,
+      45.77312509
+    ]
+  },
+  {
+    "uid": "PAR-69388-08263",
+    "nom": "Jardin Bargoin",
+    "adresse": "137 Rue Bataille",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1507.02,
+    "coordinates": [
+      4.87980892,
+      45.73625141
+    ]
+  },
+  {
+    "uid": "PAR-69381-51080",
+    "nom": "Jardin Bodin Magneval",
+    "adresse": "13 Rue Bodin",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 2665.35,
+    "coordinates": [
+      4.83505582,
+      45.77248485
+    ]
+  },
+  {
+    "uid": "PAR-69385-05134",
+    "nom": "Jardin B\u00e2tonnier Valensio",
+    "adresse": "1 Place B\u00e2tonnier Valensio",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 3639.57,
+    "coordinates": [
+      4.82509632,
+      45.75796007
+    ]
+  },
+  {
+    "uid": "PAR-69381-01279",
+    "nom": "Jardin Burdeau",
+    "adresse": "17 Rue Burdeau",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 285.25,
+    "coordinates": [
+      4.83279169,
+      45.77051241
+    ]
+  },
+  {
+    "uid": "PAR-69386-06073",
+    "nom": "Jardin Cardinal Villot",
+    "adresse": "1 Place Cardinal Jean Villot",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 2094.41,
+    "coordinates": [
+      4.85198492,
+      45.76659238
+    ]
+  },
+  {
+    "uid": "PAR-69383-03358",
+    "nom": "Jardin Ch\u00e2teau sans souci",
+    "adresse": "3 Rue des Cadets de la France Libre",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1904.21,
+    "coordinates": [
+      4.86667523,
+      45.75327887
+    ]
+  },
+  {
+    "uid": "PAR-69386-06087",
+    "nom": "Jardin Cite Internationale",
+    "adresse": "80 Quai Charles de Gaulle",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 149459.86,
+    "coordinates": [
+      4.84921316,
+      45.78236859
+    ]
+  },
+  {
+    "uid": "PAR-69384-04191",
+    "nom": "Jardin clos Carret",
+    "adresse": "38 Rue de Cuire",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 3799.34,
+    "coordinates": [
+      4.83168402,
+      45.77729811
+    ]
+  },
+  {
+    "uid": "PAR-69381-01282",
+    "nom": "Jardin Clos Saint Benoit",
+    "adresse": "3 Rue Saint Benoit",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1336.05,
+    "coordinates": [
+      4.82525583,
+      45.76906282
+    ]
+  },
+  {
+    "uid": "PAR-69383-03203",
+    "nom": "Jardin Commandant Aubertin",
+    "adresse": "2 Rue du Lac",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 6535.41,
+    "coordinates": [
+      4.85363058,
+      45.75858812
+    ]
+  },
+  {
+    "uid": "PAR-69382-52050",
+    "nom": "Jardin Confluence",
+    "adresse": "100 Quai Perrache",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 40508.07,
+    "coordinates": [
+      4.81849758,
+      45.72835653
+    ]
+  },
+  {
+    "uid": "PAR-69381-01124",
+    "nom": "Jardin Croix Paquet",
+    "adresse": "1 Place Croix Paquet",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 7780.32,
+    "coordinates": [
+      4.83598617,
+      45.76998174
+    ]
+  },
+  {
+    "uid": "PAR-69381-01084",
+    "nom": "Jardin Dalle Rozier",
+    "adresse": "4 Rue Rozier",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 532.74,
+    "coordinates": [
+      4.83352021,
+      45.76947528
+    ]
+  },
+  {
+    "uid": "PAR-69389-09126",
+    "nom": "Jardin de l 'Ile Barbe",
+    "adresse": "1 Place Notre Dame",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 11392.11,
+    "coordinates": [
+      4.83022792,
+      45.79678133
+    ]
+  },
+  {
+    "uid": "PAR-69385-05125",
+    "nom": "Jardin de la Basoche",
+    "adresse": "4 Rue de la Bombarde",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 530.91,
+    "coordinates": [
+      4.82694876,
+      45.7617267
+    ]
+  },
+  {
+    "uid": "PAR-69381-01156",
+    "nom": "Jardin de la Butte",
+    "adresse": "20 Mont\u00e9e de la Butte",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1349.58,
+    "coordinates": [
+      4.81570976,
+      45.76986446
+    ]
+  },
+  {
+    "uid": "PAR-69389-09290",
+    "nom": "Jardin de la Cr\u00e9ssonni\u00e8re",
+    "adresse": "48 Av Sidoine Apollinaire",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 33287.59,
+    "coordinates": [
+      4.79368504,
+      45.76941519
+    ]
+  },
+  {
+    "uid": "PAR-69381-01089",
+    "nom": "Jardin de la Grande C\u00f4te",
+    "adresse": "33 Mont\u00e9e de la Grande C\u00f4te",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 9156.82,
+    "coordinates": [
+      4.83164367,
+      45.77135927
+    ]
+  },
+  {
+    "uid": "PAR-69388-08254",
+    "nom": "Jardin de la La\u00efcit\u00e9",
+    "adresse": "123 Rue Marius Berliet",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1501.01,
+    "coordinates": [
+      4.86701966,
+      45.73882171
+    ]
+  },
+  {
+    "uid": "PAR-69389-09052",
+    "nom": "Jardin de la Sauvegarde",
+    "adresse": "1 Av de la Sauvegarde",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 11036.78,
+    "coordinates": [
+      4.79209215,
+      45.78681979
+    ]
+  },
+  {
+    "uid": "PAR-69389-09007",
+    "nom": "Jardin de la Vallonn\u00e8re",
+    "adresse": "143 Av Sidoine Apollinaire",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 6519.42,
+    "coordinates": [
+      4.80309279,
+      45.76432454
+    ]
+  },
+  {
+    "uid": "PAR-69388-08102",
+    "nom": "Jardin de Pr\u00e9ssens\u00e9",
+    "adresse": "43 Av de Pr\u00e9ssens\u00e9",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 9900.31,
+    "coordinates": [
+      4.86263582,
+      45.72895105
+    ]
+  },
+  {
+    "uid": "PAR-69382-02245",
+    "nom": "Jardin d'Erevan",
+    "adresse": "3 All\u00e9e Andr\u00e9 Mure",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 9085.84,
+    "coordinates": [
+      4.81701851,
+      45.74313884
+    ]
+  },
+  {
+    "uid": "PAR-69389-59269",
+    "nom": "Jardin des 2 rivi\u00e8res",
+    "adresse": "75 Rue de Saint Cyr",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 1899.51,
+    "coordinates": [
+      4.80786634,
+      45.78840375
+    ]
+  },
+  {
+    "uid": "PAR-69386-56100",
+    "nom": "Jardin des 3 Renard",
+    "adresse": "71 Rue Bossuet",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 2221.55,
+    "coordinates": [
+      4.85270481,
+      45.76811259
+    ]
+  },
+  {
+    "uid": "PAR-69387-07307",
+    "nom": "Jardin des Abruzzes",
+    "adresse": "34 Rue Cl\u00e9ment Marot",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2073.41,
+    "coordinates": [
+      4.83460887,
+      45.736406
+    ]
+  },
+  {
+    "uid": "PAR-69386-06050",
+    "nom": "Jardin des Charmettes",
+    "adresse": "119 Rue des Charmettes",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 592.04,
+    "coordinates": [
+      4.86718067,
+      45.76507211
+    ]
+  },
+  {
+    "uid": "PAR-69381-01078",
+    "nom": "Jardin des Chartreux",
+    "adresse": "36 Cours G\u00e9n\u00e9ral Giraud",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 18804.61,
+    "coordinates": [
+      4.81989676,
+      45.76825027
+    ]
+  },
+  {
+    "uid": "PAR-69385-05145",
+    "nom": "Jardin des Curiosit\u00e9es",
+    "adresse": "1 Place Abb\u00e9 Larue",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 16254.86,
+    "coordinates": [
+      4.82171231,
+      45.75484868
+    ]
+  },
+  {
+    "uid": "PAR-69389-09088",
+    "nom": "Jardin des Deux Amants",
+    "adresse": "17 Rue des Deux Amants",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 4191.54,
+    "coordinates": [
+      4.7958538,
+      45.76798236
+    ]
+  },
+  {
+    "uid": "PAR-69385-05320",
+    "nom": "Jardin des M\u00fbres",
+    "adresse": "19 Rue Fran\u00e7ois Genin",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 337.67,
+    "coordinates": [
+      4.79598397,
+      45.75413159
+    ]
+  },
+  {
+    "uid": "PAR-69389-59055",
+    "nom": "Jardin des Marronniers",
+    "adresse": "1 Av du Plateau",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 4229.19,
+    "coordinates": [
+      4.79419199,
+      45.78359213
+    ]
+  },
+  {
+    "uid": "PAR-69385-05085",
+    "nom": "Jardin des pivoines",
+    "adresse": "1 Place du 158e R\u00e9giment d'Infanterie",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 26784.35,
+    "coordinates": [
+      4.81503821,
+      45.76306944
+    ]
+  },
+  {
+    "uid": "PAR-69381-51148",
+    "nom": "Jardin des Plantes",
+    "adresse": "1 Rue Lucien Sportisse",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 12087.97,
+    "coordinates": [
+      4.82929855,
+      45.76993509
+    ]
+  },
+  {
+    "uid": "PAR-69386-06135",
+    "nom": "Jardin des Po\u00e8tes",
+    "adresse": "30 Quai Charles de Gaulle",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 9301.79,
+    "coordinates": [
+      4.84466697,
+      45.77809535
+    ]
+  },
+  {
+    "uid": "PAR-69389-59270",
+    "nom": "Jardin des saules",
+    "adresse": "1 Rue Antonin Laborde",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 7331.88,
+    "coordinates": [
+      4.81318397,
+      45.78560879
+    ]
+  },
+  {
+    "uid": "PAR-69389-09345",
+    "nom": "Jardin des Trembles",
+    "adresse": "1 Rue Felix Manginy",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 5111.75,
+    "coordinates": [
+      4.81608723,
+      45.79020531
+    ]
+  },
+  {
+    "uid": "PAR-69389-09062",
+    "nom": "Jardin des trois gouttes",
+    "adresse": "0 Place Maurice Bariod",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 5021.23,
+    "coordinates": [
+      4.82557357,
+      45.80263693
+    ]
+  },
+  {
+    "uid": "PAR-69383-03130",
+    "nom": "Jardin d'Essling",
+    "adresse": "23 Rue d'Essling",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 355.59,
+    "coordinates": [
+      4.85679268,
+      45.75560202
+    ]
+  },
+  {
+    "uid": "PAR-69386-06055",
+    "nom": "Jardin d'Inkermann",
+    "adresse": "85 Rue d'Inkermann",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 698.22,
+    "coordinates": [
+      4.86594788,
+      45.76384471
+    ]
+  },
+  {
+    "uid": "PAR-69385-05198",
+    "nom": "Jardin docteur Schweitzer",
+    "adresse": "1 Place du Docteur Schweitzer",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 8539.83,
+    "coordinates": [
+      4.78460988,
+      45.75484708
+    ]
+  },
+  {
+    "uid": "PAR-69385-05047",
+    "nom": "Jardin du Belv\u00e9d\u00e8re",
+    "adresse": "49 Mont\u00e9e du Chemin Neuf",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 1096.33,
+    "coordinates": [
+      4.82392982,
+      45.75858728
+    ]
+  },
+  {
+    "uid": "PAR-69385-05154",
+    "nom": "Jardin du Boeuf",
+    "adresse": "15 Rue du Boeuf",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 571.05,
+    "coordinates": [
+      4.82696574,
+      45.76240162
+    ]
+  },
+  {
+    "uid": "PAR-69383-03053",
+    "nom": "Jardin du ch\u00e2teau",
+    "adresse": "1 Place du ch\u00e2teau",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 4466.66,
+    "coordinates": [
+      4.88729091,
+      45.74897774
+    ]
+  },
+  {
+    "uid": "PAR-69388-08062",
+    "nom": "Jardin du Ch\u00e2teau Lumi\u00e8re",
+    "adresse": "25 Rue du Premier Film",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 5428.27,
+    "coordinates": [
+      4.87012686,
+      45.74506061
+    ]
+  },
+  {
+    "uid": "PAR-69388-08099",
+    "nom": "Jardin du Combattant d'Indochine",
+    "adresse": "61 Bd Ambroise Par\u00e9",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 4985.28,
+    "coordinates": [
+      4.88033171,
+      45.7336576
+    ]
+  },
+  {
+    "uid": "PAR-69388-08018",
+    "nom": "Jardin du corps \u00e9xp\u00e9ditionnaire Fran\u00e7ais en Italie",
+    "adresse": "12 Av Jean Mermoz",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 12192.12,
+    "coordinates": [
+      4.87373776,
+      45.73359112
+    ]
+  },
+  {
+    "uid": "PAR-69387-07017",
+    "nom": "Jardin du cuir",
+    "adresse": "15 Av Tony Garnier",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2543.06,
+    "coordinates": [
+      4.83678022,
+      45.72640878
+    ]
+  },
+  {
+    "uid": "PAR-69388-08210",
+    "nom": "Jardin du docteur Ren\u00e9 Biot",
+    "adresse": "18 Rue L\u00e9o et Maurice Trouilhet",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1959.28,
+    "coordinates": [
+      4.86855281,
+      45.74302901
+    ]
+  },
+  {
+    "uid": "PAR-69383-03341",
+    "nom": "Jardin du nouveau palais de justice",
+    "adresse": "208 Rue Duguesclin",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 3011.46,
+    "coordinates": [
+      4.84796913,
+      45.76071517
+    ]
+  },
+  {
+    "uid": "PAR-69381-01013",
+    "nom": "Jardin du palais Saint Pierre",
+    "adresse": "20 Place des Terreaux",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 7656.41,
+    "coordinates": [
+      4.8331131,
+      45.76700607
+    ]
+  },
+  {
+    "uid": "PAR-69388-08138",
+    "nom": "Jardin du Presbyt\u00e8re",
+    "adresse": "7 Rue du Presbyt\u00e8re",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1330.87,
+    "coordinates": [
+      4.85196392,
+      45.73528219
+    ]
+  },
+  {
+    "uid": "PAR-69385-05283",
+    "nom": "Jardin du Rosaire",
+    "adresse": "40 Mont\u00e9e St Barth\u00e9l\u00e9my",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 38796.29,
+    "coordinates": [
+      4.82288719,
+      45.76018424
+    ]
+  },
+  {
+    "uid": "PAR-69388-08040",
+    "nom": "Jardin Dumont",
+    "adresse": "36 Rue Antoine Dumont",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 9429.54,
+    "coordinates": [
+      4.85631458,
+      45.73225646
+    ]
+  },
+  {
+    "uid": "PAR-69384-04061",
+    "nom": "Jardin d'Ypres",
+    "adresse": "57 Rue d'Ypres",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 10406.54,
+    "coordinates": [
+      4.81601433,
+      45.78133873
+    ]
+  },
+  {
+    "uid": "PAR-69385-05348",
+    "nom": "Jardin Elise Rivet",
+    "adresse": "40 Rue des Noyers",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 6034.41,
+    "coordinates": [
+      4.78244927,
+      45.75286854
+    ]
+  },
+  {
+    "uid": "PAR-69385-55227",
+    "nom": "Jardin Francine Chollet",
+    "adresse": "5 Rue Cardinal Gerlier",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 837.96,
+    "coordinates": [
+      4.81474263,
+      45.75854087
+    ]
+  },
+  {
+    "uid": "PAR-69381-51045",
+    "nom": "Jardin Francis Deswarte",
+    "adresse": "1 Place Bellevue",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 3577.47,
+    "coordinates": [
+      4.83577527,
+      45.7741714
+    ]
+  },
+  {
+    "uid": "PAR-69382-02244",
+    "nom": "Jardin Gabriel Rosset",
+    "adresse": "63 Rue Hrant Dink",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 5384.87,
+    "coordinates": [
+      4.8159947,
+      45.73212836
+    ]
+  },
+  {
+    "uid": "PAR-69387-07105",
+    "nom": "Jardin Garibaldi Berthelot",
+    "adresse": "10 Av berthelot",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2037.58,
+    "coordinates": [
+      4.84650739,
+      45.74382323
+    ]
+  },
+  {
+    "uid": "PAR-69386-06063",
+    "nom": "Jardin Garibaldi Europe",
+    "adresse": "128 Rue Garibaldi",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 6306.79,
+    "coordinates": [
+      4.85028496,
+      45.76484096
+    ]
+  },
+  {
+    "uid": "PAR-69386-56004",
+    "nom": "Jardin G\u00e9n\u00e9ral Brosset",
+    "adresse": "1 Av G\u00e9n\u00e9ral Brosset",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 6886.43,
+    "coordinates": [
+      4.85722228,
+      45.76702218
+    ]
+  },
+  {
+    "uid": "PAR-69384-04208",
+    "nom": "Jardin Guylaine Gouzou-Testud",
+    "adresse": "3 Rue d'Ivry",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 273.17,
+    "coordinates": [
+      4.83257415,
+      45.77724121
+    ]
+  },
+  {
+    "uid": "PAR-69382-52197",
+    "nom": "Jardin Hrant Dink",
+    "adresse": "57 Rue Hrant Dink",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 2533.56,
+    "coordinates": [
+      4.8159387,
+      45.73387394
+    ]
+  },
+  {
+    "uid": "PAR-69385-55026",
+    "nom": "Jardin Jean Choux",
+    "adresse": "1 Place Abb\u00e9 Larue",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 1639.7,
+    "coordinates": [
+      4.81932303,
+      45.75545356
+    ]
+  },
+  {
+    "uid": "PAR-69389-09185",
+    "nom": "Jardin Jean Fournier",
+    "adresse": "10 Rue Jean Fournier",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 2274.72,
+    "coordinates": [
+      4.79465345,
+      45.77938821
+    ]
+  },
+  {
+    "uid": "PAR-69383-03412",
+    "nom": "Jardin Jean-Baptiste Guillot",
+    "adresse": "72 Av Lacassagne",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 315.96,
+    "coordinates": [
+      4.87414571,
+      45.7503114
+    ]
+  },
+  {
+    "uid": "PAR-69387-07092",
+    "nom": "Jardin Jean-Fran\u00e7ois Raclet",
+    "adresse": "34 Av Jean Fran\u00e7ois Raclet",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 639.33,
+    "coordinates": [
+      4.83917533,
+      45.73384881
+    ]
+  },
+  {
+    "uid": "PAR-69389-09129",
+    "nom": "Jardin Joann\u00e8s Masset",
+    "adresse": "30 Av Joann\u00e8s Masset",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 1785.95,
+    "coordinates": [
+      4.80014147,
+      45.76843311
+    ]
+  },
+  {
+    "uid": "PAR-69383-03105",
+    "nom": "Jardin Lavoisier",
+    "adresse": "78 Bd Mariues Vivier Merle",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 540.7,
+    "coordinates": [
+      4.85870016,
+      45.75581685
+    ]
+  },
+  {
+    "uid": "PAR-69388-08262",
+    "nom": "Jardin Lily Eigeldinger",
+    "adresse": "20 Rue Paul Cazeneuve",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 346.87,
+    "coordinates": [
+      4.86261246,
+      45.73356184
+    ]
+  },
+  {
+    "uid": "PAR-69388-08060",
+    "nom": "Jardin Marie Ducher",
+    "adresse": "118 Av Paul Santy",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2214.37,
+    "coordinates": [
+      4.87592403,
+      45.72836692
+    ]
+  },
+  {
+    "uid": "PAR-69389-09336",
+    "nom": "Jardin Marietton",
+    "adresse": "30 Rue Marietton",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 2601.0,
+    "coordinates": [
+      4.79469224,
+      45.77566057
+    ]
+  },
+  {
+    "uid": "PAR-69388-08197",
+    "nom": "Jardin Marius Berliet",
+    "adresse": "73 Rue Marius Berliet",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 372.47,
+    "coordinates": [
+      4.86163408,
+      45.74144079
+    ]
+  },
+  {
+    "uid": "PAR-69387-07275",
+    "nom": "Jardin Mazagran",
+    "adresse": "1 Rue Mazagran",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 4604.02,
+    "coordinates": [
+      4.843366,
+      45.75165813
+    ]
+  },
+  {
+    "uid": "PAR-69381-01045",
+    "nom": "Jardin Morel",
+    "adresse": "8 Place Lieutenant Morel",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1176.94,
+    "coordinates": [
+      4.82589533,
+      45.77171508
+    ]
+  },
+  {
+    "uid": "PAR-69389-09142",
+    "nom": "Jardin Mur du Roc",
+    "adresse": "40 Rue Hector Berlioz",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 8828.6,
+    "coordinates": [
+      4.82415783,
+      45.79882197
+    ]
+  },
+  {
+    "uid": "PAR-69389-09346",
+    "nom": "Jardin Philom\u00e8ne Rosan",
+    "adresse": "30 Rue Felix Manginy",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 853.47,
+    "coordinates": [
+      4.81605609,
+      45.79076966
+    ]
+  },
+  {
+    "uid": "PAR-69385-05128",
+    "nom": "Jardin Pierre Th\u00e9venin",
+    "adresse": "1 Place du 158e R\u00e9giment d'Infanterie",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 5907.39,
+    "coordinates": [
+      4.81336895,
+      45.76305628
+    ]
+  },
+  {
+    "uid": "PAR-69382-52021",
+    "nom": "Jardin place Antonin Poncet",
+    "adresse": "1 Place Antonin Poncet",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 11800.39,
+    "coordinates": [
+      4.83534906,
+      45.75584928
+    ]
+  },
+  {
+    "uid": "PAR-69382-52023",
+    "nom": "Jardin place Carnot",
+    "adresse": "1 Place Carnot",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 26500.22,
+    "coordinates": [
+      4.82701995,
+      45.7498311
+    ]
+  },
+  {
+    "uid": "PAR-69383-53302",
+    "nom": "Jardin Place Charles de Gaulle",
+    "adresse": "1 Place Charles de Gaulle",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 6204.09,
+    "coordinates": [
+      4.85233394,
+      45.76078469
+    ]
+  },
+  {
+    "uid": "PAR-69385-55060",
+    "nom": "Jardin place C\u00e9sar Geoffray",
+    "adresse": "1 Place C\u00e9sar Geoffray",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 5673.76,
+    "coordinates": [
+      4.78403627,
+      45.74945
+    ]
+  },
+  {
+    "uid": "PAR-69386-56023",
+    "nom": "Jardin Place de l'Europe",
+    "adresse": "1 Place de l'Europe",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 5564.2,
+    "coordinates": [
+      4.84941044,
+      45.76476121
+    ]
+  },
+  {
+    "uid": "PAR-69382-52163",
+    "nom": "Jardin place de l'Hippodrome",
+    "adresse": "1 Place de l'Hippodrome",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 10539.53,
+    "coordinates": [
+      4.8236282,
+      45.74425861
+    ]
+  },
+  {
+    "uid": "PAR-69385-55066",
+    "nom": "Jardin place des Minimes",
+    "adresse": "1 Place des Minimes",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 6718.34,
+    "coordinates": [
+      4.82086475,
+      45.75694579
+    ]
+  },
+  {
+    "uid": "PAR-69388-58050",
+    "nom": "Jardin place du 8 Mai 1945",
+    "adresse": "1 Place du 8 Mai 1945",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 21073.12,
+    "coordinates": [
+      4.86496074,
+      45.73005409
+    ]
+  },
+  {
+    "uid": "PAR-69382-52175",
+    "nom": "Jardin place G\u00e9n\u00e9ral Delfosse",
+    "adresse": "1 Place G\u00e9n\u00e9ral Delfosse",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 12992.72,
+    "coordinates": [
+      4.81599023,
+      45.74536678
+    ]
+  },
+  {
+    "uid": "PAR-69388-08300",
+    "nom": "Jardin place Jean Mermoz",
+    "adresse": "1 Place Jean Mermoz",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 9036.65,
+    "coordinates": [
+      4.88402044,
+      45.72760411
+    ]
+  },
+  {
+    "uid": "PAR-69386-56027",
+    "nom": "Jardin place Mar\u00e9chal Lyautey",
+    "adresse": "1 Place Mar\u00e9chal Lyautey",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 20484.06,
+    "coordinates": [
+      4.84125452,
+      45.76830457
+    ]
+  },
+  {
+    "uid": "PAR-69385-55215",
+    "nom": "Jardin Place Pierre Bossan",
+    "adresse": "1 Place Pierre Bossan",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 1949.41,
+    "coordinates": [
+      4.82080785,
+      45.75231863
+    ]
+  },
+  {
+    "uid": "PAR-69383-53072",
+    "nom": "Jardin place Pierre Renaudel",
+    "adresse": "1 Place Pierre Renaudel",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2230.24,
+    "coordinates": [
+      4.85744198,
+      45.75713803
+    ]
+  },
+  {
+    "uid": "PAR-69388-58056",
+    "nom": "Jardin promenade L\u00e9a et Napol\u00e9on Bullukian",
+    "adresse": "200 Av des Fr\u00e8res Lumi\u00e9re",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2171.96,
+    "coordinates": [
+      4.87670463,
+      45.74273495
+    ]
+  },
+  {
+    "uid": "PAR-69385-05160",
+    "nom": "Jardin P\u00e8re Fran\u00e7ois Varillon",
+    "adresse": "4 Rue Cardinal Gerlier",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 5113.09,
+    "coordinates": [
+      4.81583261,
+      45.7574206
+    ]
+  },
+  {
+    "uid": "PAR-69388-08177",
+    "nom": "Jardin Ren\u00e9 et Madeleine Caille",
+    "adresse": "25 Rue Ludovic Arrachart",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 3796.05,
+    "coordinates": [
+      4.86407471,
+      45.73122147
+    ]
+  },
+  {
+    "uid": "PAR-69384-04115",
+    "nom": "Jardin Rosa Mir",
+    "adresse": "87 Grande Rue de la Croix Rousse",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 529.26,
+    "coordinates": [
+      4.83198486,
+      45.78048248
+    ]
+  },
+  {
+    "uid": "PAR-69387-07049",
+    "nom": "Jardin Saint Michel",
+    "adresse": "30 Grande Rue de la Guilloti\u00e8re",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3416.2,
+    "coordinates": [
+      4.84390361,
+      45.75283079
+    ]
+  },
+  {
+    "uid": "PAR-69388-08067",
+    "nom": "Jardin Saint Nestor",
+    "adresse": "1 Rue Saint Mathieu",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 3419.23,
+    "coordinates": [
+      4.86110176,
+      45.74345395
+    ]
+  },
+  {
+    "uid": "PAR-69389-09035",
+    "nom": "Jardin Secret",
+    "adresse": "15 Grande Rue de St Rambert",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 4419.98,
+    "coordinates": [
+      4.8315601,
+      45.79912397
+    ]
+  },
+  {
+    "uid": "PAR-69383-03415",
+    "nom": "Jardin Simone Prelle",
+    "adresse": "72 rue Chaponnay",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1231.57,
+    "coordinates": [
+      4.84813247,
+      45.75808301
+    ]
+  },
+  {
+    "uid": "PAR-69383-03164",
+    "nom": "Jardin Soeur Jeanne Jugan",
+    "adresse": "27 Rue Maurice Flandin",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 8847.5,
+    "coordinates": [
+      4.86309558,
+      45.75920177
+    ]
+  },
+  {
+    "uid": "PAR-69388-58234",
+    "nom": "Jardin Suzanne Valadon",
+    "adresse": "1 Rue du Cmdt Caroline Aigle",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 5216.5,
+    "coordinates": [
+      4.88444039,
+      45.73231586
+    ]
+  },
+  {
+    "uid": "PAR-69385-05124",
+    "nom": "Jardin Taurobole",
+    "adresse": "11 Rue des Maccab\u00e9es",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 3818.83,
+    "coordinates": [
+      4.81759088,
+      45.75526714
+    ]
+  },
+  {
+    "uid": "PAR-69382-02056",
+    "nom": "Jardin terrasse Perrache",
+    "adresse": "22 Cours de Verdun",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 12737.21,
+    "coordinates": [
+      4.82640763,
+      45.74945059
+    ]
+  },
+  {
+    "uid": "PAR-69386-56087",
+    "nom": "Jardin Thiers",
+    "adresse": "1 Rue Michel Rambaud",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 3716.54,
+    "coordinates": [
+      4.86162371,
+      45.76765651
+    ]
+  },
+  {
+    "uid": "PAR-69385-05266",
+    "nom": "Jardin Th\u00e9\u00e2tre Romain Fourvi\u00e8re",
+    "adresse": "10 Rue de l'Antiquaille",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 50321.64,
+    "coordinates": [
+      4.81954755,
+      45.75839321
+    ]
+  },
+  {
+    "uid": "PAR-69388-08284",
+    "nom": "Jardin Viviani",
+    "adresse": "170 Bd des Etats Unis",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1287.26,
+    "coordinates": [
+      4.8705756,
+      45.72477921
+    ]
+  },
+  {
+    "uid": "PAR-69383-03388",
+    "nom": "Jardin Zenith",
+    "adresse": "57 Rue Feuillat",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 8731.22,
+    "coordinates": [
+      4.87699846,
+      45.747916
+    ]
+  },
+  {
+    "uid": "PAR-69388-08096",
+    "nom": "Parc Antoine Perrin",
+    "adresse": "130 Rue Guillaume Paradin",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 8978.96,
+    "coordinates": [
+      4.88885328,
+      45.73619749
+    ]
+  },
+  {
+    "uid": "PAR-69383-03133",
+    "nom": "Parc Chambovet",
+    "adresse": "2 Rue Chambovet",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 48256.87,
+    "coordinates": [
+      4.89377154,
+      45.74703099
+    ]
+  },
+  {
+    "uid": "PAR-69384-04183",
+    "nom": "Parc Chazi\u00e8re",
+    "adresse": "61 Rue Chazi\u00e8re",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 14336.31,
+    "coordinates": [
+      4.81312501,
+      45.77752392
+    ]
+  },
+  {
+    "uid": "PAR-69388-08258",
+    "nom": "Parc Clos Layat",
+    "adresse": "260 Route de Vienne",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 99809.41,
+    "coordinates": [
+      4.85223768,
+      45.72709423
+    ]
+  },
+  {
+    "uid": "PAR-69389-09041",
+    "nom": "Parc de Balmont",
+    "adresse": "18 Rue des Contrebandiers",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 43620.34,
+    "coordinates": [
+      4.80170195,
+      45.78725417
+    ]
+  },
+  {
+    "uid": "PAR-69385-05079",
+    "nom": "Parc de Champvert",
+    "adresse": "39 Rue de Champvert",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 12035.78,
+    "coordinates": [
+      4.79580497,
+      45.76203299
+    ]
+  },
+  {
+    "uid": "PAR-69387-07221",
+    "nom": "Parc de Gerland",
+    "adresse": "24 All\u00e9e Pierre de Coubertin",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 209654.61,
+    "coordinates": [
+      4.82369134,
+      45.71989299
+    ]
+  },
+  {
+    "uid": "PAR-69389-09125",
+    "nom": "Parc de Grand Champ",
+    "adresse": "1 Rue Hector Berlioz",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 19625.22,
+    "coordinates": [
+      4.82239413,
+      45.79941992
+    ]
+  },
+  {
+    "uid": "PAR-69384-04040",
+    "nom": "Parc de la Cerisaie",
+    "adresse": "25 Rue Chazi\u00e8re",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 45862.53,
+    "coordinates": [
+      4.81503574,
+      45.77446105
+    ]
+  },
+  {
+    "uid": "PAR-69389-09120",
+    "nom": "Parc de la Chapelle",
+    "adresse": "18 Rue de la Chapelle",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 12601.99,
+    "coordinates": [
+      4.78930937,
+      45.76575147
+    ]
+  },
+  {
+    "uid": "PAR-69385-05117",
+    "nom": "Parc de la Garde",
+    "adresse": "2 Rue de la Garde",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 41050.02,
+    "coordinates": [
+      4.79250559,
+      45.75909825
+    ]
+  },
+  {
+    "uid": "PAR-69385-05066",
+    "nom": "Parc de la mairie du 5e",
+    "adresse": "2 Rue Docteur Edmond Locard",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 24545.04,
+    "coordinates": [
+      4.80120987,
+      45.75628423
+    ]
+  },
+  {
+    "uid": "PAR-69385-05342",
+    "nom": "Parc de la Passerelle",
+    "adresse": "77 Av Barth\u00e9l\u00e9my Buyer",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 10411.0,
+    "coordinates": [
+      4.80257652,
+      45.75725989
+    ]
+  },
+  {
+    "uid": "PAR-69386-06016",
+    "nom": "Parc de la T\u00eate d'Or",
+    "adresse": "1 Place G\u00e9n\u00e9ral Leclerc",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 1028780.83,
+    "coordinates": [
+      4.85414293,
+      45.77279647
+    ]
+  },
+  {
+    "uid": "PAR-69385-05056",
+    "nom": "Parc de la Visitation",
+    "adresse": "23 Rue Roger Radisson",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 22320.41,
+    "coordinates": [
+      4.81795736,
+      45.75757522
+    ]
+  },
+  {
+    "uid": "PAR-69389-09171",
+    "nom": "Parc de Montpellas haut",
+    "adresse": "70 Ch de Montpellas",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 6358.1,
+    "coordinates": [
+      4.82729328,
+      45.79966837
+    ]
+  },
+  {
+    "uid": "PAR-69387-07104",
+    "nom": "Parc des Berges Nord",
+    "adresse": "1 Av Leclerc",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 29593.75,
+    "coordinates": [
+      4.82214483,
+      45.73307364
+    ]
+  },
+  {
+    "uid": "PAR-69387-07290",
+    "nom": "Parc des Berges Sud",
+    "adresse": "1 Quai du Canada",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 49728.27,
+    "coordinates": [
+      4.82108413,
+      45.72728344
+    ]
+  },
+  {
+    "uid": "PAR-69389-09313",
+    "nom": "Parc des Hautes Feuilles",
+    "adresse": "25 Rue de Montribloud",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 8781.23,
+    "coordinates": [
+      4.7925004,
+      45.76728544
+    ]
+  },
+  {
+    "uid": "PAR-69385-05074",
+    "nom": "Parc des Muri\u00e8res",
+    "adresse": "60 Rue Joliot Curie",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 13781.17,
+    "coordinates": [
+      4.78855099,
+      45.75476566
+    ]
+  },
+  {
+    "uid": "PAR-69386-56002",
+    "nom": "Parc du Br\u00e9tillod",
+    "adresse": "1 Quai Charles De Gaulle",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 80660.22,
+    "coordinates": [
+      4.84060019,
+      45.77249809
+    ]
+  },
+  {
+    "uid": "PAR-69389-09156",
+    "nom": "Parc du Vallon",
+    "adresse": "12 Rue du ch\u00e2teau de la Duch\u00e8re",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 114995.21,
+    "coordinates": [
+      4.79327992,
+      45.7775157
+    ]
+  },
+  {
+    "uid": "PAR-69384-04041",
+    "nom": "Parc Francis Popy",
+    "adresse": "33 Rue Henri Gorjus",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 17430.88,
+    "coordinates": [
+      4.82073138,
+      45.7774222
+    ]
+  },
+  {
+    "uid": "PAR-69383-03034",
+    "nom": "Parc Georges Bazin",
+    "adresse": "16 Av des Acacias",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 30921.01,
+    "coordinates": [
+      4.88155801,
+      45.75164258
+    ]
+  },
+  {
+    "uid": "PAR-69383-03335",
+    "nom": "Parc Joseph Kaplan",
+    "adresse": "106 All\u00e9e du Parc",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 10114.47,
+    "coordinates": [
+      4.85673153,
+      45.75248452
+    ]
+  },
+  {
+    "uid": "PAR-69388-08086",
+    "nom": "Parc L\u00e9on Pfeffer",
+    "adresse": "7 Rue G\u00e9n\u00e9ral Gouraud",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1523.63,
+    "coordinates": [
+      4.85055323,
+      45.73467459
+    ]
+  },
+  {
+    "uid": "PAR-69389-09305",
+    "nom": "Parc Mich\u00e8le Mollard",
+    "adresse": "6 Rue Cottin",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 2154.29,
+    "coordinates": [
+      4.80626527,
+      45.7716851
+    ]
+  },
+  {
+    "uid": "PAR-69389-09045",
+    "nom": "Parc Montel",
+    "adresse": "39 Rue du Bourbonnais",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 15107.78,
+    "coordinates": [
+      4.80179097,
+      45.77248045
+    ]
+  },
+  {
+    "uid": "PAR-69389-09038",
+    "nom": "Parc Montpellas bas",
+    "adresse": "1 Place Henri Barbusse",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 16502.69,
+    "coordinates": [
+      4.82989986,
+      45.79842382
+    ]
+  },
+  {
+    "uid": "PAR-69383-03035",
+    "nom": "Parc professeur Paul Sisley",
+    "adresse": "8 Rue prof. Paul Sisley",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 9982.59,
+    "coordinates": [
+      4.86839662,
+      45.75150239
+    ]
+  },
+  {
+    "uid": "PAR-69387-07277",
+    "nom": "Parc Sergent Blandan",
+    "adresse": "37 Rue du Repos",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 166949.37,
+    "coordinates": [
+      4.85680286,
+      45.74293812
+    ]
+  },
+  {
+    "uid": "PAR-69381-01040",
+    "nom": "Parc Sutter",
+    "adresse": "10 Rue de Vauzelles",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 4930.55,
+    "coordinates": [
+      4.8267805,
+      45.77260026
+    ]
+  },
+  {
+    "uid": "PAR-69384-04200",
+    "nom": "Petit Parc Serin",
+    "adresse": "35 Quai Joseph Gillet",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 2713.2,
+    "coordinates": [
+      4.81044261,
+      45.77609529
+    ]
+  },
+  {
+    "uid": "PAR-69382-52201",
+    "nom": "Place B\u00e9atrice Artz",
+    "adresse": "52 Rue Hrant Dink",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 2730.21,
+    "coordinates": [
+      4.81507096,
+      45.73529677
+    ]
+  },
+  {
+    "uid": "PAR-69387-57029",
+    "nom": "Place des Docteurs M\u00e9rieux",
+    "adresse": "1 Place des doc M\u00e9rieux",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 20434.3,
+    "coordinates": [
+      4.82462872,
+      45.7317295
+    ]
+  },
+  {
+    "uid": "PAR-69385-55217",
+    "nom": "Promenade de la Sarra",
+    "adresse": "15 Promenade de la Sarra",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 10526.83,
+    "coordinates": [
+      4.814343,
+      45.76288595
+    ]
+  },
+  {
+    "uid": "PAR-69388-08305",
+    "nom": "Promenade Juliette Guillot",
+    "adresse": "1 Promenade Juliette Guillot",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2998.96,
+    "coordinates": [
+      4.87509911,
+      45.7339016
+    ]
+  },
+  {
+    "uid": "PAR-69381-51213",
+    "nom": "Rives de Sa\u00f4ne 1er",
+    "adresse": "1 Quai St Vincent",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 12317.56,
+    "coordinates": [
+      4.83119224,
+      45.76495183
+    ]
+  },
+  {
+    "uid": "PAR-69382-52169",
+    "nom": "Rives de Sa\u00f4ne 2e",
+    "adresse": "1 Quai des C\u00e9lestins",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 65720.37,
+    "coordinates": [
+      4.81613879,
+      45.73202274
+    ]
+  },
+  {
+    "uid": "PAR-69384-54150",
+    "nom": "Rives de Sa\u00f4ne 4e",
+    "adresse": "1 Quai Joseph Gillet",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 28850.55,
+    "coordinates": [
+      4.81345596,
+      45.77153635
+    ]
+  },
+  {
+    "uid": "PAR-69388-58219",
+    "nom": "Square Adolphe Lafont",
+    "adresse": "25 All\u00e9e Adolphe Lafont",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 3131.52,
+    "coordinates": [
+      4.88584452,
+      45.737961
+    ]
+  },
+  {
+    "uid": "PAR-69389-59241",
+    "nom": "Square Andr\u00e9 Canard",
+    "adresse": "1 Quai de la Gare d'Eau",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 3789.62,
+    "coordinates": [
+      4.80872059,
+      45.7800199
+    ]
+  },
+  {
+    "uid": "PAR-69389-09014",
+    "nom": "Square Averro\u00e8s",
+    "adresse": "0 Rue Marcel Cerdan",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 2087.63,
+    "coordinates": [
+      4.79437818,
+      45.78721262
+    ]
+  },
+  {
+    "uid": "PAR-69383-53315",
+    "nom": "Square Bahadourian",
+    "adresse": "1 Place Djibra\u00e8l Bahadourian",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 6282.21,
+    "coordinates": [
+      4.84529006,
+      45.75660577
+    ]
+  },
+  {
+    "uid": "PAR-69388-08252",
+    "nom": "Square Beno\u00aft Bernard",
+    "adresse": "3 Rue Benoit Bernard",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1090.43,
+    "coordinates": [
+      4.85075473,
+      45.7380159
+    ]
+  },
+  {
+    "uid": "PAR-69388-58070",
+    "nom": "Square Berchet",
+    "adresse": "75 Rue Berchet",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2193.94,
+    "coordinates": [
+      4.86788169,
+      45.74039332
+    ]
+  },
+  {
+    "uid": "PAR-69384-04049",
+    "nom": "Square Bouvier",
+    "adresse": "44 Rue Deleuvre",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 1913.54,
+    "coordinates": [
+      4.82546066,
+      45.7796746
+    ]
+  },
+  {
+    "uid": "PAR-69388-08063",
+    "nom": "Square Calmette",
+    "adresse": "204 Rue professeur Calmette",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 498.05,
+    "coordinates": [
+      4.87699521,
+      45.74248129
+    ]
+  },
+  {
+    "uid": "PAR-69381-01043",
+    "nom": "Square Carquillat",
+    "adresse": "37 Rue Pierre Dupont",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1429.44,
+    "coordinates": [
+      4.82152599,
+      45.7720507
+    ]
+  },
+  {
+    "uid": "PAR-69385-05114",
+    "nom": "Square Charcot",
+    "adresse": "130 Rue Commandant Charcot",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 2485.57,
+    "coordinates": [
+      4.79015952,
+      45.74751094
+    ]
+  },
+  {
+    "uid": "PAR-69387-07113",
+    "nom": "Square Chevreul",
+    "adresse": "68 Rue Chevreul",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2716.54,
+    "coordinates": [
+      4.84413009,
+      45.74614048
+    ]
+  },
+  {
+    "uid": "PAR-69383-03366",
+    "nom": "Square Combet Descombes",
+    "adresse": "89 Rue Antoine Charial",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 213.7,
+    "coordinates": [
+      4.86996362,
+      45.75780538
+    ]
+  },
+  {
+    "uid": "PAR-69389-59124",
+    "nom": "Square Compas Raison",
+    "adresse": "1 Av du Plateau",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 3750.34,
+    "coordinates": [
+      4.79466583,
+      45.78349844
+    ]
+  },
+  {
+    "uid": "PAR-69387-07283",
+    "nom": "Square Cristal Plaza",
+    "adresse": "198 Av Jean Jaur\u00e8s",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 4541.61,
+    "coordinates": [
+      4.83533976,
+      45.73653326
+    ]
+  },
+  {
+    "uid": "PAR-69383-03127",
+    "nom": "Square d'Aubigny",
+    "adresse": "16 Rue d'Aubigny",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 718.46,
+    "coordinates": [
+      4.86310397,
+      45.76142641
+    ]
+  },
+  {
+    "uid": "PAR-69387-57222",
+    "nom": "Square de Barcelone",
+    "adresse": "25 Rue Maurice Carraz",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3408.98,
+    "coordinates": [
+      4.82354149,
+      45.7278432
+    ]
+  },
+  {
+    "uid": "PAR-69389-59108",
+    "nom": "Square de Beer Sheva",
+    "adresse": "15 Rue de Beer Sheva",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 3035.25,
+    "coordinates": [
+      4.79015305,
+      45.78918788
+    ]
+  },
+  {
+    "uid": "PAR-69384-04162",
+    "nom": "Square de la Boucle",
+    "adresse": "28 Mont\u00e9e de la Boucle",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 1039.29,
+    "coordinates": [
+      4.83997453,
+      45.78041839
+    ]
+  },
+  {
+    "uid": "PAR-69389-09161",
+    "nom": "Square de la Duch\u00e8re",
+    "adresse": "10 Bd de la Duch\u00e8re",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 3281.32,
+    "coordinates": [
+      4.79235791,
+      45.78171688
+    ]
+  },
+  {
+    "uid": "PAR-69389-09154",
+    "nom": "Square de la Foucade",
+    "adresse": "1 Mont\u00e9e de Balmont",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 6100.22,
+    "coordinates": [
+      4.79983758,
+      45.78555988
+    ]
+  },
+  {
+    "uid": "PAR-69388-58224",
+    "nom": "Square de la Fraternit\u00e9",
+    "adresse": "25 Rue de  la Fraternit\u00e9",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1885.85,
+    "coordinates": [
+      4.8592578,
+      45.74072912
+    ]
+  },
+  {
+    "uid": "PAR-69388-58012",
+    "nom": "Square de la Sant\u00e9",
+    "adresse": "15 Bd Jean XXIII",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 789.32,
+    "coordinates": [
+      4.87766197,
+      45.74281725
+    ]
+  },
+  {
+    "uid": "PAR-69383-53184",
+    "nom": "Square de l'Est",
+    "adresse": "23 Rue Feuillat",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 341.18,
+    "coordinates": [
+      4.87691563,
+      45.75265009
+    ]
+  },
+  {
+    "uid": "PAR-69385-09003",
+    "nom": "Square de l'observance",
+    "adresse": "54 Mont\u00e9e de l'Observance",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 1324.35,
+    "coordinates": [
+      4.80988098,
+      45.7695866
+    ]
+  },
+  {
+    "uid": "PAR-69386-06049",
+    "nom": "Square de l'Ossuaire",
+    "adresse": "147 Rue de Cr\u00e9qui",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 2642.52,
+    "coordinates": [
+      4.84701254,
+      45.76427617
+    ]
+  },
+  {
+    "uid": "PAR-69381-01274",
+    "nom": "Square de Thou",
+    "adresse": "3 Rue de Thou",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 243.65,
+    "coordinates": [
+      4.83660887,
+      45.77005971
+    ]
+  },
+  {
+    "uid": "PAR-69381-01093",
+    "nom": "Square de Villemanzy",
+    "adresse": "21 Mont\u00e9e Saint S\u00e9bastien",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 5454.61,
+    "coordinates": [
+      4.83570151,
+      45.77178016
+    ]
+  },
+  {
+    "uid": "PAR-69387-07260",
+    "nom": "Square Debourg",
+    "adresse": "46 Av Debourg",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 4978.45,
+    "coordinates": [
+      4.82875365,
+      45.73074315
+    ]
+  },
+  {
+    "uid": "PAR-69384-04068",
+    "nom": "Square Dejean-Frangin",
+    "adresse": "118 Bd de la Croix Rousse",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 1200.03,
+    "coordinates": [
+      4.82708152,
+      45.77419521
+    ]
+  },
+  {
+    "uid": "PAR-69383-03190",
+    "nom": "Square Delestraint",
+    "adresse": "8 Quai Victor Augagneur",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 3536.79,
+    "coordinates": [
+      4.8412433,
+      45.76064269
+    ]
+  },
+  {
+    "uid": "PAR-69387-07061",
+    "nom": "Square Deperet",
+    "adresse": "7 Rue de l'Universit\u00e9",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1244.88,
+    "coordinates": [
+      4.83809278,
+      45.75158263
+    ]
+  },
+  {
+    "uid": "PAR-69389-09252",
+    "nom": "Square des 400",
+    "adresse": "1 Rue Robert Wolville",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 7795.72,
+    "coordinates": [
+      4.78887937,
+      45.78814437
+    ]
+  },
+  {
+    "uid": "PAR-69387-57171",
+    "nom": "Square des 44 enfants d'Izieu",
+    "adresse": "75 Rue Raoul Servant",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 680.89,
+    "coordinates": [
+      4.83666201,
+      45.74564354
+    ]
+  },
+  {
+    "uid": "PAR-69388-08289",
+    "nom": "Square des Am\u00e9riques",
+    "adresse": "80 Bd des Etats Unis",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 995.98,
+    "coordinates": [
+      4.86716885,
+      45.72884773
+    ]
+  },
+  {
+    "uid": "PAR-69386-06095",
+    "nom": "Square des Droits de l'Enfant",
+    "adresse": "37 Bd des Brotteaux",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 2155.15,
+    "coordinates": [
+      4.85719037,
+      45.76575988
+    ]
+  },
+  {
+    "uid": "PAR-69385-05123",
+    "nom": "Square des Estr\u00e9es",
+    "adresse": "4 Rue des Estr\u00e9es",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 2063.68,
+    "coordinates": [
+      4.82788278,
+      45.76080826
+    ]
+  },
+  {
+    "uid": "PAR-69381-01212",
+    "nom": "Square des Pierres Plant\u00e9es",
+    "adresse": "10 Rue Calliet",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 1745.13,
+    "coordinates": [
+      4.83268249,
+      45.77290938
+    ]
+  },
+  {
+    "uid": "PAR-69385-55138",
+    "nom": "Square des Quatre Colonnes",
+    "adresse": "15 Rue des Quatre Colonne",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 357.55,
+    "coordinates": [
+      4.81115046,
+      45.75754924
+    ]
+  },
+  {
+    "uid": "PAR-69383-53159",
+    "nom": "Square Desaix",
+    "adresse": "6 Rue Desaix",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2326.19,
+    "coordinates": [
+      4.85477101,
+      45.7571249
+    ]
+  },
+  {
+    "uid": "PAR-69383-03431",
+    "nom": "Square Diday",
+    "adresse": "1 Rue Dr Paul Diday",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 478.1,
+    "coordinates": [
+      4.8746762,
+      45.7522397
+    ]
+  },
+  {
+    "uid": "PAR-69388-08065",
+    "nom": "Square du 14\u00e8me Zouave",
+    "adresse": "15 Rue Antoine Fonlupt",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 4405.42,
+    "coordinates": [
+      4.85308356,
+      45.73625452
+    ]
+  },
+  {
+    "uid": "PAR-69387-57114",
+    "nom": "Square du Brigadier Voituret",
+    "adresse": "15 Rue du brigadier Voituret",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 700.94,
+    "coordinates": [
+      4.84354943,
+      45.74477223
+    ]
+  },
+  {
+    "uid": "PAR-69389-59149",
+    "nom": "Square du B\u00e9al",
+    "adresse": "3 Rue du B\u00e9al",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 661.45,
+    "coordinates": [
+      4.79426931,
+      45.77258768
+    ]
+  },
+  {
+    "uid": "PAR-69387-07115",
+    "nom": "Square du B\u00e9guin",
+    "adresse": "18 Rue du B\u00e9guin",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3428.09,
+    "coordinates": [
+      4.84998801,
+      45.74782479
+    ]
+  },
+  {
+    "uid": "PAR-69389-09058",
+    "nom": "Square du C.S. Champvert",
+    "adresse": "204 Av Barth\u00e9lemy Buyer",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 4954.64,
+    "coordinates": [
+      4.79137243,
+      45.76413968
+    ]
+  },
+  {
+    "uid": "PAR-69386-06109",
+    "nom": "Square du Capitaine Billon",
+    "adresse": "1 Bd des Belges",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 1232.09,
+    "coordinates": [
+      4.85696899,
+      45.77013474
+    ]
+  },
+  {
+    "uid": "PAR-69387-07148",
+    "nom": "Square du Commandant Ayasse",
+    "adresse": "9 Rue Commandant Ayasse",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 635.1,
+    "coordinates": [
+      4.82581362,
+      45.73655313
+    ]
+  },
+  {
+    "uid": "PAR-69387-57186",
+    "nom": "Square du professeur Galtier",
+    "adresse": "85 Square du Professeur Galtier",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3190.19,
+    "coordinates": [
+      4.83065495,
+      45.7269862
+    ]
+  },
+  {
+    "uid": "PAR-69385-55123",
+    "nom": "Square du Rempart",
+    "adresse": "8 Rue de Trion",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 270.0,
+    "coordinates": [
+      4.81863039,
+      45.7560951
+    ]
+  },
+  {
+    "uid": "PAR-69387-57116",
+    "nom": "Square du Repos",
+    "adresse": "15 Rue du Repos",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1036.2,
+    "coordinates": [
+      4.85246489,
+      45.74339884
+    ]
+  },
+  {
+    "uid": "PAR-69383-03097",
+    "nom": "Square du Sacr\u00e9 Coeur",
+    "adresse": "105 Rue Baraban",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 4830.63,
+    "coordinates": [
+      4.86853338,
+      45.75801078
+    ]
+  },
+  {
+    "uid": "PAR-69388-08282",
+    "nom": "Square du Transvaal",
+    "adresse": "1 Rue Auguste Pinton",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1211.93,
+    "coordinates": [
+      4.87911375,
+      45.73783211
+    ]
+  },
+  {
+    "uid": "PAR-69389-09096",
+    "nom": "Square du Vergoin",
+    "adresse": "1 Rue Charles Porcher",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 5126.67,
+    "coordinates": [
+      4.83692335,
+      45.80220742
+    ]
+  },
+  {
+    "uid": "PAR-69385-05177",
+    "nom": "Square Dupond-Ebrard",
+    "adresse": "28 Rue des Aqueducs",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 1410.73,
+    "coordinates": [
+      4.79405188,
+      45.75863881
+    ]
+  },
+  {
+    "uid": "PAR-69383-53180",
+    "nom": "Square Edison",
+    "adresse": "196 Rue Edison",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 643.49,
+    "coordinates": [
+      4.84786354,
+      45.75820888
+    ]
+  },
+  {
+    "uid": "PAR-69383-53318",
+    "nom": "Square Eug\u00e8ne Varlin",
+    "adresse": "104 Rue Moncey",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2209.52,
+    "coordinates": [
+      4.84794936,
+      45.75971548
+    ]
+  },
+  {
+    "uid": "PAR-69383-03094",
+    "nom": "Square Eug\u00e9nie",
+    "adresse": "14 Cours Eugenie",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 546.33,
+    "coordinates": [
+      4.88675865,
+      45.74913679
+    ]
+  },
+  {
+    "uid": "PAR-69383-03069",
+    "nom": "Square Farr\u00e8re",
+    "adresse": "74 Rue Claude Farr\u00e8re",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 509.2,
+    "coordinates": [
+      4.89389152,
+      45.74269891
+    ]
+  },
+  {
+    "uid": "PAR-69386-56068",
+    "nom": "Square F\u00e9lix Jacquier",
+    "adresse": "5 Rue F\u00e9lix Jacquier",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 253.47,
+    "coordinates": [
+      4.84740477,
+      45.77212511
+    ]
+  },
+  {
+    "uid": "PAR-69383-53335",
+    "nom": "Square Gandoli\u00e8re",
+    "adresse": "2 Rue Gandoli\u00e8re",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 475.67,
+    "coordinates": [
+      4.86546228,
+      45.75975935
+    ]
+  },
+  {
+    "uid": "PAR-69384-54147",
+    "nom": "Square Georges Mattelon",
+    "adresse": "1 Place Georges Mattelon",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 991.89,
+    "coordinates": [
+      4.83612153,
+      45.7797426
+    ]
+  },
+  {
+    "uid": "PAR-69387-07280",
+    "nom": "Square Girard",
+    "adresse": "80 Rue lieutenant Colonel Girard",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1213.08,
+    "coordinates": [
+      4.82387642,
+      45.734513
+    ]
+  },
+  {
+    "uid": "PAR-69386-06161",
+    "nom": "Square G\u00e9n\u00e9ral Marcel Descour",
+    "adresse": "40 Rue Germain",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 1495.82,
+    "coordinates": [
+      4.86701179,
+      45.76476779
+    ]
+  },
+  {
+    "uid": "PAR-69384-04048",
+    "nom": "Square Gustave Auguste Ferri\u00e9",
+    "adresse": "58 Rue H\u00e9non",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 2789.73,
+    "coordinates": [
+      4.82441234,
+      45.77995736
+    ]
+  },
+  {
+    "uid": "PAR-69388-08287",
+    "nom": "Square Henri Pensier",
+    "adresse": "8 Rue Henri Pensier",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 222.19,
+    "coordinates": [
+      4.86246899,
+      45.74513622
+    ]
+  },
+  {
+    "uid": "PAR-69387-07134",
+    "nom": "Square Ilot de l'effort",
+    "adresse": "98 Rue Jean Vallier",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 4881.78,
+    "coordinates": [
+      4.83620566,
+      45.73165439
+    ]
+  },
+  {
+    "uid": "PAR-69382-52160",
+    "nom": "Square Janmot",
+    "adresse": "1 Square Janmot",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 676.54,
+    "coordinates": [
+      4.82566638,
+      45.7543387
+    ]
+  },
+  {
+    "uid": "PAR-69388-08091",
+    "nom": "Square Jean de Torcy",
+    "adresse": "59 Rue Longefer",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 3224.09,
+    "coordinates": [
+      4.88203599,
+      45.74001506
+    ]
+  },
+  {
+    "uid": "PAR-69383-53289",
+    "nom": "Square Jean Reverzy",
+    "adresse": "1 Square Jen Reverzy",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 470.54,
+    "coordinates": [
+      4.87160877,
+      45.75157424
+    ]
+  },
+  {
+    "uid": "PAR-69385-05141",
+    "nom": "Square Jean Tricou",
+    "adresse": "34 Rue Commandant Charcot",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 3199.39,
+    "coordinates": [
+      4.80696774,
+      45.75491535
+    ]
+  },
+  {
+    "uid": "PAR-69387-07189",
+    "nom": "Square Jules Guesde",
+    "adresse": "140 Rue S\u00e9bastien Gryphe",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1720.63,
+    "coordinates": [
+      4.83810007,
+      45.7473975
+    ]
+  },
+  {
+    "uid": "PAR-69383-03040",
+    "nom": "Square Jules Verne",
+    "adresse": "7 Rue Jules Verne",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 16755.4,
+    "coordinates": [
+      4.87740464,
+      45.75029267
+    ]
+  },
+  {
+    "uid": "PAR-69388-58222",
+    "nom": "Square Julie Daubi\u00e9",
+    "adresse": "25 Place Julie Daubi\u00e9",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2287.46,
+    "coordinates": [
+      4.88227845,
+      45.73329544
+    ]
+  },
+  {
+    "uid": "PAR-69386-56113",
+    "nom": "Square J\u00e9rome Bererd",
+    "adresse": "15 Square J\u00e9rome Bererd",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 946.15,
+    "coordinates": [
+      4.85281085,
+      45.76371262
+    ]
+  },
+  {
+    "uid": "PAR-69383-53290",
+    "nom": "Square Jussieu",
+    "adresse": "1 Square Jussieu",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2916.65,
+    "coordinates": [
+      4.84144953,
+      45.76240537
+    ]
+  },
+  {
+    "uid": "PAR-69386-06097",
+    "nom": "Square Louis Blanc",
+    "adresse": "16 Rue Louis Blanc",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 673.15,
+    "coordinates": [
+      4.84788032,
+      45.76424228
+    ]
+  },
+  {
+    "uid": "PAR-69387-57212",
+    "nom": "Square Marie Madeleine Fourcade",
+    "adresse": "1 Rue Marie Madeleine Fourcade",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3770.0,
+    "coordinates": [
+      4.83908445,
+      45.73685681
+    ]
+  },
+  {
+    "uid": "PAR-69388-08085",
+    "nom": "Square Michaud",
+    "adresse": "165 Av G\u00e9n\u00e9ral Fr\u00e8re",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2942.63,
+    "coordinates": [
+      4.88078068,
+      45.72887612
+    ]
+  },
+  {
+    "uid": "PAR-69383-53178",
+    "nom": "Square Moncey-Dunoir",
+    "adresse": "51 Rue Dunoir",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1562.37,
+    "coordinates": [
+      4.84982919,
+      45.76124449
+    ]
+  },
+  {
+    "uid": "PAR-69387-07261",
+    "nom": "Square Monod",
+    "adresse": "65 All\u00e9e d'Italie",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2856.35,
+    "coordinates": [
+      4.82841816,
+      45.73002367
+    ]
+  },
+  {
+    "uid": "PAR-69387-07101",
+    "nom": "Square Monseigneur Alfred Ancel",
+    "adresse": "14 Rue Prosper Chappet",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1968.99,
+    "coordinates": [
+      4.83135916,
+      45.72924408
+    ]
+  },
+  {
+    "uid": "PAR-69389-09118",
+    "nom": "Square Morlot",
+    "adresse": "60 Rue Pierre Baizet",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 1688.77,
+    "coordinates": [
+      4.81562519,
+      45.79435255
+    ]
+  },
+  {
+    "uid": "PAR-69389-09130",
+    "nom": "Square Mouriquand",
+    "adresse": "30 Square Mouriquand",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 6090.71,
+    "coordinates": [
+      4.82411693,
+      45.79574224
+    ]
+  },
+  {
+    "uid": "PAR-69387-57134",
+    "nom": "Square Nadaud Leclerc",
+    "adresse": "15 Av Leclerc",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 1480.83,
+    "coordinates": [
+      4.83126436,
+      45.74461869
+    ]
+  },
+  {
+    "uid": "PAR-69384-04063",
+    "nom": "Square Ninon Vallin",
+    "adresse": "67 Rue Henri Gorjus",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 2458.21,
+    "coordinates": [
+      4.82315626,
+      45.78383262
+    ]
+  },
+  {
+    "uid": "PAR-69383-03139",
+    "nom": "Square No\u00d9l Aymard",
+    "adresse": "51 Cours Eugenie",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1602.06,
+    "coordinates": [
+      4.88783234,
+      45.7452364
+    ]
+  },
+  {
+    "uid": "PAR-69389-09146",
+    "nom": "Square N\u00e9rard",
+    "adresse": "17 Rue N\u00e9ard",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 474.88,
+    "coordinates": [
+      4.80358661,
+      45.77665244
+    ]
+  },
+  {
+    "uid": "PAR-69388-08048",
+    "nom": "Square Picod",
+    "adresse": "39 Rue Paul Cazeneuve",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2471.67,
+    "coordinates": [
+      4.86296532,
+      45.73389078
+    ]
+  },
+  {
+    "uid": "PAR-69383-53332",
+    "nom": "Square Pierre Pelloux",
+    "adresse": "285 Rue Duguesclin",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1477.8,
+    "coordinates": [
+      4.85010274,
+      45.75448203
+    ]
+  },
+  {
+    "uid": "PAR-69383-53294",
+    "nom": "Square place Aristide Briand",
+    "adresse": "1 Place Aristide Briand",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 7416.89,
+    "coordinates": [
+      4.84928657,
+      45.75245504
+    ]
+  },
+  {
+    "uid": "PAR-69382-52022",
+    "nom": "Square Place Bellecour",
+    "adresse": "1 Place Bellecour",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 7250.0,
+    "coordinates": [
+      4.83008947,
+      45.75724201
+    ]
+  },
+  {
+    "uid": "PAR-69385-55058",
+    "nom": "Square place Beno\u00aft Cr\u00e9pu",
+    "adresse": "1 Place Benoit Cr\u00e9pu",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 2778.58,
+    "coordinates": [
+      4.82589205,
+      45.75784884
+    ]
+  },
+  {
+    "uid": "PAR-69383-53056",
+    "nom": "Square place Bir Hakeim",
+    "adresse": "1 Place Bir hakeim",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 6734.49,
+    "coordinates": [
+      4.85531595,
+      45.75206543
+    ]
+  },
+  {
+    "uid": "PAR-69381-51059",
+    "nom": "Square place Chazette",
+    "adresse": "1 Place Louis Chazette",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 7358.36,
+    "coordinates": [
+      4.83741495,
+      45.77287924
+    ]
+  },
+  {
+    "uid": "PAR-69382-52026",
+    "nom": "Square place de la Bourse",
+    "adresse": "1 Place de la Bourse",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 2155.54,
+    "coordinates": [
+      4.83651386,
+      45.76426503
+    ]
+  },
+  {
+    "uid": "PAR-69385-55064",
+    "nom": "Square place de la Commanderie",
+    "adresse": "1 Place de la Commanderie",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 787.01,
+    "coordinates": [
+      4.82538742,
+      45.75736328
+    ]
+  },
+  {
+    "uid": "PAR-69383-53061",
+    "nom": "Square place de la Ferrandi\u00e8re",
+    "adresse": "1 Place de la Ferrandi\u00e8re",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 9423.07,
+    "coordinates": [
+      4.86993138,
+      45.75949275
+    ]
+  },
+  {
+    "uid": "PAR-69383-53062",
+    "nom": "Square Place de la Reconnaissance",
+    "adresse": "8 Place de la Reconnaisance",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1953.89,
+    "coordinates": [
+      4.88573596,
+      45.75368236
+    ]
+  },
+  {
+    "uid": "PAR-69387-57205",
+    "nom": "Square place de Montr\u00e9al",
+    "adresse": "5 Place de Montr\u00e9al",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 3816.24,
+    "coordinates": [
+      4.82247019,
+      45.72826997
+    ]
+  },
+  {
+    "uid": "PAR-69387-57197",
+    "nom": "Square place de Stalingrad",
+    "adresse": "1 Place Stalingrad",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2918.81,
+    "coordinates": [
+      4.85344675,
+      45.74917712
+    ]
+  },
+  {
+    "uid": "PAR-69381-51052",
+    "nom": "Square place des Chartreux",
+    "adresse": "1 Place des Chartreux",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 710.0,
+    "coordinates": [
+      4.8209504,
+      45.77049812
+    ]
+  },
+  {
+    "uid": "PAR-69382-52028",
+    "nom": "Square place des C\u00e9lestins",
+    "adresse": "1 Place des C\u00e9lestins",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 2683.72,
+    "coordinates": [
+      4.83136476,
+      45.75971374
+    ]
+  },
+  {
+    "uid": "PAR-69386-56022",
+    "nom": "Square place d'Helvetie",
+    "adresse": "1 Place d'Helv\u00e8tie",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 2183.86,
+    "coordinates": [
+      4.84144494,
+      45.77283381
+    ]
+  },
+  {
+    "uid": "PAR-69386-56024",
+    "nom": "Square place Edgard Quinet",
+    "adresse": "1 Place Edgard Quinet",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 5021.43,
+    "coordinates": [
+      4.84453692,
+      45.76594852
+    ]
+  },
+  {
+    "uid": "PAR-69384-54136",
+    "nom": "Square place Emile Chanel",
+    "adresse": "1 Place Emile Chanel",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 1472.91,
+    "coordinates": [
+      4.81613358,
+      45.77781868
+    ]
+  },
+  {
+    "uid": "PAR-69384-54037",
+    "nom": "Square place Flammarion",
+    "adresse": "1 Place Camille Flammarion",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 2750.22,
+    "coordinates": [
+      4.81950571,
+      45.77957196
+    ]
+  },
+  {
+    "uid": "PAR-69385-55075",
+    "nom": "Square place Fran\u00e7ois Bertras",
+    "adresse": "1 Place Fran\u00e7ois Bertras",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 943.92,
+    "coordinates": [
+      4.82555913,
+      45.75753378
+    ]
+  },
+  {
+    "uid": "PAR-69382-52032",
+    "nom": "Square place Gensoul",
+    "adresse": "1 Place Gensoul",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 1825.74,
+    "coordinates": [
+      4.82373075,
+      45.75110385
+    ]
+  },
+  {
+    "uid": "PAR-69384-54137",
+    "nom": "Square place Millaud",
+    "adresse": "1 Place Edouard Millaud",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 1921.88,
+    "coordinates": [
+      4.82354176,
+      45.77394301
+    ]
+  },
+  {
+    "uid": "PAR-69387-57038",
+    "nom": "Square place Ollier",
+    "adresse": "1 Place Ollier",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 2646.54,
+    "coordinates": [
+      4.83792658,
+      45.75239065
+    ]
+  },
+  {
+    "uid": "PAR-69386-56028",
+    "nom": "Square place Puvis de Chavannes",
+    "adresse": "1 Place Puvis de Chavannes",
+    "codepost": 69006,
+    "commune": "Lyon",
+    "surface_m2": 8746.31,
+    "coordinates": [
+      4.84353348,
+      45.77111129
+    ]
+  },
+  {
+    "uid": "PAR-69387-57039",
+    "nom": "Square place Raspail",
+    "adresse": "1 Place Raspail",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 6851.85,
+    "coordinates": [
+      4.83970875,
+      45.75463089
+    ]
+  },
+  {
+    "uid": "PAR-69383-53074",
+    "nom": "Square place Sainte Anne",
+    "adresse": "1 Place Sainte Anne",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2064.1,
+    "coordinates": [
+      4.86560476,
+      45.75689366
+    ]
+  },
+  {
+    "uid": "PAR-69388-08042",
+    "nom": "Square professeur Morat",
+    "adresse": "30 Rue prof. Morat",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 5190.58,
+    "coordinates": [
+      4.87888592,
+      45.73448838
+    ]
+  },
+  {
+    "uid": "PAR-69385-05139",
+    "nom": "Square P\u00e8re Chaillet",
+    "adresse": "22 Av du Point du Jour",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 909.83,
+    "coordinates": [
+      4.80436635,
+      45.7563126
+    ]
+  },
+  {
+    "uid": "PAR-69383-03270",
+    "nom": "Square Rebatel",
+    "adresse": "26 Rue Docteur Rebatel",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2029.87,
+    "coordinates": [
+      4.87208468,
+      45.74800895
+    ]
+  },
+  {
+    "uid": "PAR-69387-07259",
+    "nom": "Square Ren\u00e9 Bayet",
+    "adresse": "20 Rue Jaboulay",
+    "codepost": 69007,
+    "commune": "Lyon",
+    "surface_m2": 563.18,
+    "coordinates": [
+      4.84726663,
+      45.74495753
+    ]
+  },
+  {
+    "uid": "PAR-69383-03156",
+    "nom": "Square Ren\u00e9 Clair",
+    "adresse": "12 Rue Saint Th\u00e9odore",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 2885.78,
+    "coordinates": [
+      4.86299384,
+      45.74851714
+    ]
+  },
+  {
+    "uid": "PAR-69388-08029",
+    "nom": "Square Ren\u00e9e Mayoud Visconti",
+    "adresse": "101 Bd des Etats-Unis",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 2796.05,
+    "coordinates": [
+      4.86729085,
+      45.73013115
+    ]
+  },
+  {
+    "uid": "PAR-69383-03167",
+    "nom": "Square Roger Br\u00e9chan",
+    "adresse": "2 Passage Roger Br\u00e9chan",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 730.73,
+    "coordinates": [
+      4.86633084,
+      45.75048066
+    ]
+  },
+  {
+    "uid": "PAR-69381-01054",
+    "nom": "Square Roger Duplat",
+    "adresse": "27 Rue Pierre Dupont",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 15747.35,
+    "coordinates": [
+      4.82060234,
+      45.77140964
+    ]
+  },
+  {
+    "uid": "PAR-69389-09335",
+    "nom": "Square Roquette",
+    "adresse": "5 Rue Roquette",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 5346.7,
+    "coordinates": [
+      4.80559406,
+      45.77612291
+    ]
+  },
+  {
+    "uid": "PAR-69389-09102",
+    "nom": "Square Roquette Jayr",
+    "adresse": "21 Rue Roquette",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 415.39,
+    "coordinates": [
+      4.80713218,
+      45.77626851
+    ]
+  },
+  {
+    "uid": "PAR-69384-04057",
+    "nom": "Square Saint Eucher",
+    "adresse": "68 Rue Eug\u00e8ne pons",
+    "codepost": 69004,
+    "commune": "Lyon",
+    "surface_m2": 391.67,
+    "coordinates": [
+      4.83993686,
+      45.77944509
+    ]
+  },
+  {
+    "uid": "PAR-69388-08032",
+    "nom": "Square Saint Hippolyte",
+    "adresse": "10 Rue Saint Hippolyte",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 7474.16,
+    "coordinates": [
+      4.86354124,
+      45.74636736
+    ]
+  },
+  {
+    "uid": "PAR-69383-03142",
+    "nom": "Square Saint Maximin",
+    "adresse": "58 Rue Saint Maximin",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 968.83,
+    "coordinates": [
+      4.87139385,
+      45.74750046
+    ]
+  },
+  {
+    "uid": "PAR-69381-51076",
+    "nom": "Square Saint Vincent",
+    "adresse": "16 Quai Saint Vincent",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 869.27,
+    "coordinates": [
+      4.81941592,
+      45.76784458
+    ]
+  },
+  {
+    "uid": "PAR-69383-03123",
+    "nom": "Square Sainte-Marie Perrin",
+    "adresse": "12 Rue Etienne Dolet",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 4633.74,
+    "coordinates": [
+      4.85135501,
+      45.75708721
+    ]
+  },
+  {
+    "uid": "PAR-69389-09159",
+    "nom": "Square Sakharov Captiva",
+    "adresse": "308 Av Andrei Sakharov",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 4001.63,
+    "coordinates": [
+      4.80092946,
+      45.7877722
+    ]
+  },
+  {
+    "uid": "PAR-69381-51212",
+    "nom": "Square Soeur Louise",
+    "adresse": "1 Place Soeur Louise",
+    "codepost": 69001,
+    "commune": "Lyon",
+    "surface_m2": 436.15,
+    "coordinates": [
+      4.82689715,
+      45.76879078
+    ]
+  },
+  {
+    "uid": "PAR-69389-09093",
+    "nom": "Square S\u00e9daillan",
+    "adresse": "24 Quai Paul S\u00e9daillan",
+    "codepost": 69009,
+    "commune": "Lyon",
+    "surface_m2": 1355.73,
+    "coordinates": [
+      4.82248531,
+      45.79395196
+    ]
+  },
+  {
+    "uid": "PAR-69388-58191",
+    "nom": "Square Thomas Blanchet",
+    "adresse": "95 Rue Thomas Blanchet",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 1359.3,
+    "coordinates": [
+      4.88443855,
+      45.73743394
+    ]
+  },
+  {
+    "uid": "PAR-69388-08131",
+    "nom": "Square Varichon",
+    "adresse": "30 Av Paul Santy",
+    "codepost": 69008,
+    "commune": "Lyon",
+    "surface_m2": 4434.15,
+    "coordinates": [
+      4.87047373,
+      45.73362775
+    ]
+  },
+  {
+    "uid": "PAR-69383-03364",
+    "nom": "Square Viala",
+    "adresse": "136 Av Lacassagne",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 1021.7,
+    "coordinates": [
+      4.88531482,
+      45.74651409
+    ]
+  },
+  {
+    "uid": "PAR-69383-03049",
+    "nom": "Square Voltaire",
+    "adresse": "77 Rue Chaponnay",
+    "codepost": 69003,
+    "commune": "Lyon",
+    "surface_m2": 660.07,
+    "coordinates": [
+      4.84870027,
+      45.75852101
+    ]
+  },
+  {
+    "uid": "PAR-69382-52168",
+    "nom": "Square Widor",
+    "adresse": "1 Place Charles et Marie Widor",
+    "codepost": 69002,
+    "commune": "Lyon",
+    "surface_m2": 607.6,
+    "coordinates": [
+      4.83166264,
+      45.75493065
+    ]
+  },
+  {
+    "uid": "PAR-69385-05129",
+    "nom": "Voie verte",
+    "adresse": "89 Av Barth\u00e9lemy Buyer",
+    "codepost": 69005,
+    "commune": "Lyon",
+    "surface_m2": 43395.73,
+    "coordinates": [
+      4.80314559,
+      45.76062637
+    ]
+  },
+  {
+    "uid": "PAR-69286-016",
+    "nom": "Voie verte Loup-pendu",
+    "adresse": "700 Avenue Pierre Mend\u00e9s France",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 32047.0,
+    "coordinates": [
+      4.87348403,
+      45.81555875
+    ]
+  },
+  {
+    "uid": "PAR-69286-024",
+    "nom": "Bois de Osterode",
+    "adresse": "741 Route du Mas Rillier",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 96224.0,
+    "coordinates": [
+      4.91395162,
+      45.82718767
+    ]
+  },
+  {
+    "uid": "PAR-69286-009",
+    "nom": "Parc bois\u00e9 de Vancia Ch\u00e2teau B\u00e9rard",
+    "adresse": "5059 Route de Strasbourg",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 83921.0,
+    "coordinates": [
+      4.91145099,
+      45.83579893
+    ]
+  },
+  {
+    "uid": "PAR-69286-017",
+    "nom": "Parc Lin\u00e9aire",
+    "adresse": "165 Rue Amp\u00e8re",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 70510.0,
+    "coordinates": [
+      4.8924827,
+      45.81704278
+    ]
+  },
+  {
+    "uid": "PAR-69286-022",
+    "nom": "Jardin de la Buisi\u00e8re",
+    "adresse": "1 Chemin de la Chapelle",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 1673.0,
+    "coordinates": [
+      4.88050709,
+      45.80361776
+    ]
+  },
+  {
+    "uid": "PAR-69286-023",
+    "nom": "Parc bois\u00e9 Fort de Vancia",
+    "adresse": "144-339 Chemin de beau regard",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 180855.0,
+    "coordinates": [
+      4.90784037,
+      45.83659932
+    ]
+  },
+  {
+    "uid": "PAR-69204-001",
+    "nom": "Parc historique de Beauregard",
+    "adresse": "Rue Edouard Millaud",
+    "codepost": 69230,
+    "commune": "Saint-Genis-Laval",
+    "surface_m2": 36358.95,
+    "coordinates": [
+      4.786552,
+      45.69293704
+    ]
+  },
+  {
+    "uid": "PAR-69204-002",
+    "nom": "Parc de la Maison des Champs",
+    "adresse": "130 Avenue Georges Clemenceau",
+    "codepost": 69230,
+    "commune": "Saint-Genis-Laval",
+    "surface_m2": 4506.04,
+    "coordinates": [
+      4.792575,
+      45.69654604
+    ]
+  },
+  {
+    "uid": "PAR-69204-003",
+    "nom": "Parc de la Villa Chapuis ",
+    "adresse": "45 Avenue Georges Clemenceau",
+    "codepost": 69230,
+    "commune": "Saint-Genis-Laval",
+    "surface_m2": 4894.07,
+    "coordinates": [
+      4.795598,
+      45.69802304
+    ]
+  },
+  {
+    "uid": "PAR-69204-004",
+    "nom": "Parc du Fort de C\u00f4te Lorette",
+    "adresse": "18 Rue de la Croix Rouge",
+    "codepost": 69230,
+    "commune": "Saint-Genis-Laval",
+    "surface_m2": 60630.49,
+    "coordinates": [
+      4.784917,
+      45.69925604
+    ]
+  },
+  {
+    "uid": "PAR-69266-003",
+    "nom": "Jardin Alexis Jordan",
+    "adresse": "77 Rue Ch\u00e2teau Gaillard",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7444.92379429,
+    "coordinates": [
+      4.88973202,
+      45.77564906
+    ]
+  },
+  {
+    "uid": "PAR-69266-009",
+    "nom": "Jardin Pierre Baratin",
+    "adresse": "45 Rue Pierre Baratin",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 471.427429713,
+    "coordinates": [
+      4.90055064,
+      45.76321688
+    ]
+  },
+  {
+    "uid": "PAR-69266-011",
+    "nom": "Parc des Droits de l'Homme - Maison des a\u00een\u00e9s",
+    "adresse": "56 Rue Du 1 Mars 1943",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 17603.2378671,
+    "coordinates": [
+      4.88800337,
+      45.76563906
+    ]
+  },
+  {
+    "uid": "PAR-69266-013",
+    "nom": "Parc Vaclav Havel",
+    "adresse": "118 Cours Tolsto\u00ef",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2636.83981382,
+    "coordinates": [
+      4.88090538,
+      45.76171655
+    ]
+  },
+  {
+    "uid": "PAR-69266-014",
+    "nom": "Square Berty Albrecht",
+    "adresse": "14 Place Jules Grandcl\u00e9ment",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1129.83509623,
+    "coordinates": [
+      4.88648873,
+      45.7584844
+    ]
+  },
+  {
+    "uid": "PAR-69266-015",
+    "nom": "Square de la Roseraie",
+    "adresse": "28 Avenue Marc Sangnier",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2857.4701,
+    "coordinates": [
+      4.87403977,
+      45.76103503
+    ]
+  },
+  {
+    "uid": "PAR-69266-016",
+    "nom": "Square du Bataillon Carmagnole Libert\u00e9",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1356.58974371,
+    "coordinates": [
+      4.87251594,
+      45.7616596
+    ]
+  },
+  {
+    "uid": "PAR-69266-018",
+    "nom": "Jardin des tout petits Adolphe Lafont",
+    "adresse": "19 Avenue Marc Sangnier",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2863.08082892,
+    "coordinates": [
+      4.87429857,
+      45.76179471
+    ]
+  },
+  {
+    "uid": "PAR-69266-020",
+    "nom": "Jardin Jean Rictus",
+    "adresse": "32 Rue Docteur Frappaz",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1775.82302195,
+    "coordinates": [
+      4.89490582,
+      45.76173813
+    ]
+  },
+  {
+    "uid": "PAR-69266-021",
+    "nom": "Square L\u00e9on Meiss",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1157.36153041,
+    "coordinates": [
+      4.88051898,
+      45.76903407
+    ]
+  },
+  {
+    "uid": "PAR-69266-025",
+    "nom": "Dalle Jules Guesde",
+    "adresse": "116 Rue de la Ligne de l'Est",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7396.40372013,
+    "coordinates": [
+      4.90895808,
+      45.75634931
+    ]
+  },
+  {
+    "uid": "PAR-69266-028",
+    "nom": "Square Dreieich",
+    "adresse": "1 Petite Rue Pasteur",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1413.92340639,
+    "coordinates": [
+      4.89897865,
+      45.76584532
+    ]
+  },
+  {
+    "uid": "PAR-69266-029",
+    "nom": "Square Roger Palanche et Ren\u00e9 Vidal",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 202.491099984,
+    "coordinates": [
+      4.86712257,
+      45.76983673
+    ]
+  },
+  {
+    "uid": "PAR-69266-030",
+    "nom": "Esplanade Genevi\u00e8ve Anthonioz de Gaulle - Rue Robert Desnos",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7226.57299925,
+    "coordinates": [
+      4.87907576,
+      45.77318411
+    ]
+  },
+  {
+    "uid": "PAR-69266-031",
+    "nom": "Jardin Marcel Claeys",
+    "adresse": "27 Rue Hippolyte Kahn",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 654.687044991,
+    "coordinates": [
+      4.87569854,
+      45.76964043
+    ]
+  },
+  {
+    "uid": "PAR-69266-032",
+    "nom": "Square Victor Basch",
+    "adresse": "24 Rue Victor Basch",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 384.175491485,
+    "coordinates": [
+      4.896741,
+      45.76318073
+    ]
+  },
+  {
+    "uid": "PAR-69266-033",
+    "nom": "Jardin Alfred Sauvy",
+    "adresse": "46 Rue du Progr\u00e8s",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1989.20221891,
+    "coordinates": [
+      4.89428636,
+      45.76265604
+    ]
+  },
+  {
+    "uid": "PAR-69266-034",
+    "nom": "Square All\u00e9e du Couchant",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2138.72405005,
+    "coordinates": [
+      4.87951325,
+      45.75942387
+    ]
+  },
+  {
+    "uid": "PAR-69266-038",
+    "nom": "Square Florian",
+    "adresse": "56 Rue Florian",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 3332.5985041,
+    "coordinates": [
+      4.87967829,
+      45.75798451
+    ]
+  },
+  {
+    "uid": "PAR-69266-039",
+    "nom": "Square Henri Bertrand",
+    "adresse": "119 Rue Anatole France",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1521.04208196,
+    "coordinates": [
+      4.88179359,
+      45.76863094
+    ]
+  },
+  {
+    "uid": "PAR-69266-040",
+    "nom": "Espace de vie de l'Abbe Bordes",
+    "adresse": "33 Rue Armand",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 3423.62539558,
+    "coordinates": [
+      4.88661199,
+      45.779803
+    ]
+  },
+  {
+    "uid": "PAR-69266-042",
+    "nom": "Square Jacques Prevert",
+    "adresse": "63 Cours Tolsto\u00ef",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 6262.19864735,
+    "coordinates": [
+      4.87658702,
+      45.76376442
+    ]
+  },
+  {
+    "uid": "PAR-69266-043",
+    "nom": "Square Hugues Limonti",
+    "adresse": "174 Rue L\u00e9on Blum",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 211.977330056,
+    "coordinates": [
+      4.90808567,
+      45.76094084
+    ]
+  },
+  {
+    "uid": "PAR-69266-044",
+    "nom": "Jardin des Milles Couleurs",
+    "adresse": "2 Rue Pierre Baratin",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2273.84270605,
+    "coordinates": [
+      4.90053986,
+      45.76459025
+    ]
+  },
+  {
+    "uid": "PAR-69266-053",
+    "nom": "Parc de la Feyssine",
+    "adresse": "17-21 Rue Rouget De l'Isle",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 415339.270511,
+    "coordinates": [
+      4.88077651,
+      45.78763318
+    ]
+  },
+  {
+    "uid": "PAR-69266-088",
+    "nom": "Square F\u00e9lix Leboss\u00e9",
+    "adresse": "85 Rue Anatole France",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 4299.03682266,
+    "coordinates": [
+      4.8771371,
+      45.76854729
+    ]
+  },
+  {
+    "uid": "PAR-69266-096",
+    "nom": "Parc Jacob Hugentobler (et Esplanade)",
+    "adresse": "20 Rue Valentin Ha\u00fcy",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 6215.48539433,
+    "coordinates": [
+      4.88357133,
+      45.75861305
+    ]
+  },
+  {
+    "uid": "PAR-69266-098",
+    "nom": "Square du Ch\u00e2teau",
+    "adresse": "61 Rue Ch\u00e2teau Gaillard",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 5637.92951374,
+    "coordinates": [
+      4.88697487,
+      45.77685407
+    ]
+  },
+  {
+    "uid": "PAR-69266-106",
+    "nom": "Parc Chanteur",
+    "adresse": "53 Rue Francis de Pressens\u00e9",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7458.28218445,
+    "coordinates": [
+      4.87275156,
+      45.77303239
+    ]
+  },
+  {
+    "uid": "PAR-69266-180",
+    "nom": "Jardin de poche Bienvenus Perroncel",
+    "adresse": "132 Rue des Bienvenus",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 365.934328995,
+    "coordinates": [
+      4.88402868,
+      45.77633288
+    ]
+  },
+  {
+    "uid": "PAR-69266-181",
+    "nom": "Jardin des Poulettes",
+    "adresse": "45 Rue Edouard Vaillant",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 553.100149903,
+    "coordinates": [
+      4.88026496,
+      45.77565116
+    ]
+  },
+  {
+    "uid": "PAR-69266-182",
+    "nom": "Parc Elie Wiesel",
+    "adresse": "20 Rue du 8 Mai 1945",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 4296.30593692,
+    "coordinates": [
+      4.88934826,
+      45.78128775
+    ]
+  },
+  {
+    "uid": "PAR-69266-185",
+    "nom": "Square du Champ de l'Orme",
+    "adresse": "3 Rue du Champ de l'Orme",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 262.605594849,
+    "coordinates": [
+      4.89050719,
+      45.7719411
+    ]
+  },
+  {
+    "uid": "PAR-69266-187",
+    "nom": "Square Alice et Andre Vansteenberghe",
+    "adresse": "11 Rue Ch\u00e2teau Gaillard",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 3053.86630014,
+    "coordinates": [
+      4.88364596,
+      45.7792798
+    ]
+  },
+  {
+    "uid": "PAR-69266-189",
+    "nom": "Square Moghilev",
+    "adresse": "2 Rue Richelieu",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 811.753183798,
+    "coordinates": [
+      4.8779074,
+      45.76268402
+    ]
+  },
+  {
+    "uid": "PAR-69266-192",
+    "nom": "Square Songieu",
+    "adresse": "67 Rue Anatole France",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 238.748104093,
+    "coordinates": [
+      4.87523417,
+      45.76763726
+    ]
+  },
+  {
+    "uid": "PAR-69266-193",
+    "nom": "Promenade de la Gare",
+    "adresse": "36 Avenue Paul Kr\u00fcger",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7198.34761573,
+    "coordinates": [
+      4.89525221,
+      45.75628152
+    ]
+  },
+  {
+    "uid": "PAR-69266-194",
+    "nom": "Square du 19 mars 1962",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1955.6250002,
+    "coordinates": [
+      4.8892532,
+      45.76979654
+    ]
+  },
+  {
+    "uid": "PAR-69266-195",
+    "nom": "Square du Temps des Cerises",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2824.37697884,
+    "coordinates": [
+      4.88065874,
+      45.78072956
+    ]
+  },
+  {
+    "uid": "PAR-69266-198",
+    "nom": "Esplanade Miriam Makeba",
+    "adresse": "34 Rue de la Soie",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 3022.33113614,
+    "coordinates": [
+      4.91918016,
+      45.76044174
+    ]
+  },
+  {
+    "uid": "PAR-69266-200",
+    "nom": "Esplanade Sakharov",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2423.9026288,
+    "coordinates": [
+      4.86999308,
+      45.77143124
+    ]
+  },
+  {
+    "uid": "PAR-69266-201",
+    "nom": "Jardin de l'Eygue",
+    "adresse": "129 Rue Jean Voillot",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1159.23159989,
+    "coordinates": [
+      4.91053229,
+      45.7557725
+    ]
+  },
+  {
+    "uid": "PAR-69266-202",
+    "nom": "Jardin de poche rue de la Convention",
+    "adresse": "23 Rue de la Convention",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 80.5213891726,
+    "coordinates": [
+      4.87219841,
+      45.76367006
+    ]
+  },
+  {
+    "uid": "PAR-69266-207",
+    "nom": "Square Association Rhin et Danube",
+    "adresse": "212 Rue Francis de Pressens\u00e9",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 271.505135995,
+    "coordinates": [
+      4.88832661,
+      45.770545
+    ]
+  },
+  {
+    "uid": "PAR-69266-208",
+    "nom": "Square Georges L\u00e9vy",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 246.961276172,
+    "coordinates": [
+      4.88377932,
+      45.7688317
+    ]
+  },
+  {
+    "uid": "PAR-69266-212",
+    "nom": "Square des Anciens Combattants d'Afrique du Nord",
+    "adresse": "132 Rue Louis Becker",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2510.8064956,
+    "coordinates": [
+      4.87608555,
+      45.76519825
+    ]
+  },
+  {
+    "uid": "PAR-69266-214",
+    "nom": "Parc Edouard Glissant",
+    "adresse": "62 Avenue Roger Salengro",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 3408.44248917,
+    "coordinates": [
+      4.87409026,
+      45.77641561
+    ]
+  },
+  {
+    "uid": "PAR-69266-279",
+    "nom": "Jardin Bonneterre",
+    "adresse": "141 Cours Tolsto\u00ef",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 298.425429009,
+    "coordinates": [
+      4.88597996,
+      45.76094033
+    ]
+  },
+  {
+    "uid": "PAR-69266-367",
+    "nom": "Parc Jorge Semprun",
+    "adresse": "14 Rue Willy Brandt",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 5313.09427777,
+    "coordinates": [
+      4.91717659,
+      45.76312074
+    ]
+  },
+  {
+    "uid": "PAR-69266-369",
+    "nom": "Square de la Concorde",
+    "adresse": "63 Rue Henri Legay",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 610.361728144,
+    "coordinates": [
+      4.91655444,
+      45.75462055
+    ]
+  },
+  {
+    "uid": "PAR-69266-370",
+    "nom": "Square Germaine Tillon",
+    "adresse": "4 Rue Sabine Zlatin",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2558.30007621,
+    "coordinates": [
+      4.91821796,
+      45.75409792
+    ]
+  },
+  {
+    "uid": "PAR-69266-376",
+    "nom": "Parc Nathalie Gautier",
+    "adresse": "18 Rue Jean Jaur\u00e8s",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2823.57863675,
+    "coordinates": [
+      4.87992318,
+      45.75624808
+    ]
+  },
+  {
+    "uid": "PAR-69266-377",
+    "nom": "Square des Justes",
+    "adresse": "16 Rue Docteur Ollier",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 81.6120044002,
+    "coordinates": [
+      4.88255607,
+      45.76781474
+    ]
+  },
+  {
+    "uid": "PAR-69266-378",
+    "nom": "Square Henri Frenay",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1336.15461353,
+    "coordinates": [
+      4.88228314,
+      45.77056754
+    ]
+  },
+  {
+    "uid": "PAR-69266-379",
+    "nom": "Espace de l'Europe Jean Monnet",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 17944.6501599,
+    "coordinates": [
+      4.86340006,
+      45.77427539
+    ]
+  },
+  {
+    "uid": "PAR-69266-380",
+    "nom": "Parc Vaillant couturier",
+    "adresse": "59 Rue L\u00e9on Blum",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 7952.52528748,
+    "coordinates": [
+      4.89524582,
+      45.76044893
+    ]
+  },
+  {
+    "uid": "PAR-69266-381",
+    "nom": "Parc Etienne Gagnaire",
+    "adresse": "3 Rue Etienne Gagnaire",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 8728.19182296,
+    "coordinates": [
+      4.86535687,
+      45.77372716
+    ]
+  },
+  {
+    "uid": "PAR-69266-382",
+    "nom": "Parc de la Commune de Paris",
+    "adresse": "83 Rue Pierre Voyant",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 25251.1796403,
+    "coordinates": [
+      4.90038998,
+      45.76870682
+    ]
+  },
+  {
+    "uid": "PAR-69266-384",
+    "nom": "Square de la Doua",
+    "adresse": "",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 11362.2355212,
+    "coordinates": [
+      4.86468493,
+      45.78028662
+    ]
+  },
+  {
+    "uid": "PAR-69266-385",
+    "nom": "Parc Marx Dormoy",
+    "adresse": "2 Rue de la Pouponni\u00e8re",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2624.77995914,
+    "coordinates": [
+      4.89431918,
+      45.75480232
+    ]
+  },
+  {
+    "uid": "PAR-69266-386",
+    "nom": "Square de la Plaine Robinson",
+    "adresse": "192 Rue du 4 Ao\u00fbt 1789",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1202.99488941,
+    "coordinates": [
+      4.89296251,
+      45.76459083
+    ]
+  },
+  {
+    "uid": "PAR-69266-387",
+    "nom": "Jardin de l'Embellie",
+    "adresse": "1 Rue Bernard Lecache",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2957.21819988,
+    "coordinates": [
+      4.90997192,
+      45.76503461
+    ]
+  },
+  {
+    "uid": "PAR-69266-388",
+    "nom": "Jardin des Clairs-Bois",
+    "adresse": "51 Rue Dedieu",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 237.298650069,
+    "coordinates": [
+      4.86762296,
+      45.76968649
+    ]
+  },
+  {
+    "uid": "PAR-69266-389",
+    "nom": "Square de la France Libre - Charles de Gaulle",
+    "adresse": "251 Cours Emile Zola",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2332.03309606,
+    "coordinates": [
+      4.88845649,
+      45.76957073
+    ]
+  },
+  {
+    "uid": "PAR-69266-390",
+    "nom": "Square Edmond Michelet",
+    "adresse": "10 Avenue Condorcet",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1769.12265869,
+    "coordinates": [
+      4.86594282,
+      45.77788252
+    ]
+  },
+  {
+    "uid": "PAR-69266-391",
+    "nom": "Square Gendron",
+    "adresse": "36 Rue Viret",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 408.276812718,
+    "coordinates": [
+      4.87527362,
+      45.77227363
+    ]
+  },
+  {
+    "uid": "PAR-69266-392",
+    "nom": "Square Marcel Doret",
+    "adresse": "2 Rue Marcel Doret",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 423.158914607,
+    "coordinates": [
+      4.91250996,
+      45.75524435
+    ]
+  },
+  {
+    "uid": "PAR-69266-393",
+    "nom": "Square Marie Claude Thivillon",
+    "adresse": "3 Rue Fr\u00e9d\u00e9ric Fa\u00ffs",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 253.392703253,
+    "coordinates": [
+      4.90310198,
+      45.76476002
+    ]
+  },
+  {
+    "uid": "PAR-69266-394",
+    "nom": "Parc Ren\u00e9 Dumont",
+    "adresse": "66 Avenue Galline",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 2249.75470264,
+    "coordinates": [
+      4.86753664,
+      45.77621806
+    ]
+  },
+  {
+    "uid": "PAR-69266-395",
+    "nom": "Square Ren\u00e9 Pellet",
+    "adresse": "74 Cours Emile Zola",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 1529.39448529,
+    "coordinates": [
+      4.87085119,
+      45.77074608
+    ]
+  },
+  {
+    "uid": "PAR-69266-397",
+    "nom": "Square Maurice Ferr\u00e9ol",
+    "adresse": "11 Rue de l'Avenir",
+    "codepost": 69100,
+    "commune": "Villeurbanne",
+    "surface_m2": 4122.76459873,
+    "coordinates": [
+      4.90764537,
+      45.75507151
+    ]
+  },
+  {
+    "uid": "PAR-69286-026",
+    "nom": "Parc de la diversit\u00e9 Sermenaz",
+    "adresse": "",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 412793.0,
+    "coordinates": [
+      4.91204992,
+      45.81958933
+    ]
+  },
+  {
+    "uid": "PAR-69286-028",
+    "nom": "Parc Doisneau",
+    "adresse": "5 Rue Alexandre Dumas",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 4638.0,
+    "coordinates": [
+      4.893457,
+      45.81466201
+    ]
+  },
+  {
+    "uid": "PAR-69286-029",
+    "nom": "Parc de la Roue",
+    "adresse": "",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 6665.0,
+    "coordinates": [
+      4.89524178,
+      45.82495022
+    ]
+  },
+  {
+    "uid": "PAR-69256-037",
+    "nom": "Esplanade Tase",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 14090.0,
+    "coordinates": [
+      4.92491781,
+      45.7615466
+    ]
+  },
+  {
+    "uid": "PAR-69256-038",
+    "nom": "All\u00e9e des Marronniers",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1037.0,
+    "coordinates": [
+      4.92715038,
+      45.78652051
+    ]
+  },
+  {
+    "uid": "PAR-69256-039",
+    "nom": "Espace vert des Verch\u00e8res",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 3604.0,
+    "coordinates": [
+      4.92652406,
+      45.78036887
+    ]
+  },
+  {
+    "uid": "PAR-69256-040",
+    "nom": "Square Andr\u00e9 Malraux",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2706.0,
+    "coordinates": [
+      4.92266645,
+      45.77755773
+    ]
+  },
+  {
+    "uid": "PAR-69256-041",
+    "nom": "Place de la Thibaude",
+    "adresse": "6 Rue Joann\u00e8s Drevet",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2904.0,
+    "coordinates": [
+      4.92952316,
+      45.7773391
+    ]
+  },
+  {
+    "uid": "PAR-69256-048",
+    "nom": "Jardin de la Grappini\u00e8re",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 901.0,
+    "coordinates": [
+      4.91174797,
+      45.78900551
+    ]
+  },
+  {
+    "uid": "PAR-69256-049",
+    "nom": "\u00celot des Dentelli\u00e8res",
+    "adresse": "4 Rue Maurice Moissonier",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1443.0,
+    "coordinates": [
+      4.92287968,
+      45.75989981
+    ]
+  },
+  {
+    "uid": "PAR-69256-050",
+    "nom": "Square Terron-sur-Aisne",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 773.0,
+    "coordinates": [
+      4.91984149,
+      45.78660846
+    ]
+  },
+  {
+    "uid": "PAR-69256-051",
+    "nom": "Promenade L\u00e9nine",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 34067.0,
+    "coordinates": [
+      4.92204251,
+      45.77766586
+    ]
+  },
+  {
+    "uid": "PAR-69256-052",
+    "nom": "Place Pasteur",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 62.0,
+    "coordinates": [
+      4.93040089,
+      45.78555491
+    ]
+  },
+  {
+    "uid": "PAR-69256-053",
+    "nom": "Rue Fran\u00e7ois Rabelais",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1425.0,
+    "coordinates": [
+      4.91906767,
+      45.78023303
+    ]
+  },
+  {
+    "uid": "PAR-69256-055",
+    "nom": "Parc du Lyc\u00e9e",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 3996.0,
+    "coordinates": [
+      4.91974729,
+      45.77721524
+    ]
+  },
+  {
+    "uid": "PAR-69256-056",
+    "nom": "Place Toni Morrison",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1170.0,
+    "coordinates": [
+      4.92603909,
+      45.7755383
+    ]
+  },
+  {
+    "uid": "PAR-69256-057",
+    "nom": "Square Monique Martin",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 146.0,
+    "coordinates": [
+      4.92580151,
+      45.78535414
+    ]
+  },
+  {
+    "uid": "PAR-69286-030",
+    "nom": "Parc de Buisi\u00e8re",
+    "adresse": "10 chemin de la Buissi\u00e8re",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 3760.0,
+    "coordinates": [
+      4.88264237,
+      45.80214096
+    ]
+  },
+  {
+    "uid": "PAR-69143-001",
+    "nom": "Parc d'ombreval",
+    "adresse": "Place de Verdun",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 16150.0,
+    "coordinates": [
+      4.838508,
+      45.87808904
+    ]
+  },
+  {
+    "uid": "PAR-69143-002",
+    "nom": "City Stade du chemin de halage",
+    "adresse": "Route de Lyon",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 5000.0,
+    "coordinates": [
+      4.837056,
+      45.87114204
+    ]
+  },
+  {
+    "uid": "PAR-69143-003",
+    "nom": "Parc de l' aventuriere",
+    "adresse": "Rue de Prandi\u00e8re",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 4600.0,
+    "coordinates": [
+      4.835057,
+      45.88550504
+    ]
+  },
+  {
+    "uid": "PAR-69143-004",
+    "nom": "Jardin partag\u00e9 de la Source",
+    "adresse": "Rue de Prandi\u00e8re",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 1430.0,
+    "coordinates": [
+      4.835009,
+      45.88566004
+    ]
+  },
+  {
+    "uid": "PAR-69143-005",
+    "nom": "Jardin partag\u00e9 Bertrand Vergnais",
+    "adresse": "8 Rue Jacques",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 1140.0,
+    "coordinates": [
+      4.839735,
+      45.87921804
+    ]
+  },
+  {
+    "uid": "PAR-69143-006",
+    "nom": "Jardin partag\u00e9 Villeroy",
+    "adresse": "Place Villeroy",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 7.0,
+    "coordinates": [
+      4.839697,
+      45.87565904
+    ]
+  },
+  {
+    "uid": "PAR-69143-007",
+    "nom": "Jardin partag\u00e9 Curie",
+    "adresse": "Rue Curie",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 22.0,
+    "coordinates": [
+      4.841106,
+      45.87617804
+    ]
+  },
+  {
+    "uid": "PAR-69143-008",
+    "nom": "Vallon des Torri\u00e8res",
+    "adresse": "",
+    "codepost": 69250,
+    "commune": "Neuville-sur-Sa\u00f4ne",
+    "surface_m2": 2420000.0,
+    "coordinates": [
+      4.851644,
+      45.88479504
+    ]
+  },
+  {
+    "uid": "PAR-69256-054",
+    "nom": "Chemin Claude Debussy",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 626.0,
+    "coordinates": [
+      4.92859743,
+      45.77868917
+    ]
+  },
+  {
+    "uid": "PAR-69256-060",
+    "nom": "Promenade L\u00e9nine/Rue Jules Romains",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 2227.0,
+    "coordinates": [
+      4.91808106,
+      45.77908043
+    ]
+  },
+  {
+    "uid": "PAR-69256-062",
+    "nom": "Place de la Nation",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 1084.0,
+    "coordinates": [
+      4.9216666,
+      45.77847351
+    ]
+  },
+  {
+    "uid": "PAR-69256-018",
+    "nom": "Chemin de halage",
+    "adresse": "",
+    "codepost": 69120,
+    "commune": "Vaulx-en-Velin",
+    "surface_m2": 153379.0,
+    "coordinates": [
+      4.93305534,
+      45.77118236
+    ]
+  },
+  {
+    "uid": "PAR-69034-001",
+    "nom": "Ancienne route de Strasbourg",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1444.0,
+    "coordinates": [
+      4.87125259,
+      45.79396888
+    ]
+  },
+  {
+    "uid": "PAR-69034-002",
+    "nom": "Berges de Sa\u00f4ne",
+    "adresse": "2 - 61 Quai Cl\u00e9menceau",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 25848.0,
+    "coordinates": [
+      4.81983181,
+      45.78923273
+    ]
+  },
+  {
+    "uid": "PAR-69034-003",
+    "nom": "Berges du Rh\u00f4ne",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 127056.0,
+    "coordinates": [
+      4.85980961,
+      45.78754694
+    ]
+  },
+  {
+    "uid": "PAR-69034-004",
+    "nom": "Bois Elie Vignal",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 3323.0,
+    "coordinates": [
+      4.85184404,
+      45.79313107
+    ]
+  },
+  {
+    "uid": "PAR-69034-005",
+    "nom": "Butte Corbel",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1625.0,
+    "coordinates": [
+      4.85179942,
+      45.79302537
+    ]
+  },
+  {
+    "uid": "PAR-69034-006",
+    "nom": "Chemin du Belv\u00e9d\u00e8re",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 561.0,
+    "coordinates": [
+      4.84694769,
+      45.78770285
+    ]
+  },
+  {
+    "uid": "PAR-69034-007",
+    "nom": "Chemin du Bois des Fr\u00e8res",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 788.0,
+    "coordinates": [
+      4.84014162,
+      45.79774444
+    ]
+  },
+  {
+    "uid": "PAR-69034-008",
+    "nom": "Esplanade Bernard Roger-Dalbert",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 13543.0,
+    "coordinates": [
+      4.84053388,
+      45.79796801
+    ]
+  },
+  {
+    "uid": "PAR-69034-009",
+    "nom": "Esplanade Jacques Chirac",
+    "adresse": "73ter Rue Pasteur",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 3200.0,
+    "coordinates": [
+      4.84308932,
+      45.79150916
+    ]
+  },
+  {
+    "uid": "PAR-69034-010",
+    "nom": "Fort de Montessuy",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 50853.0,
+    "coordinates": [
+      4.84680272,
+      45.79332584
+    ]
+  },
+  {
+    "uid": "PAR-69034-011",
+    "nom": "Jardin de la Maison du Garde Barri\u00e8re",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 618.0,
+    "coordinates": [
+      4.85390489,
+      45.80137175
+    ]
+  },
+  {
+    "uid": "PAR-69034-012",
+    "nom": "Jardin des Vo\u00fbtes",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 616.0,
+    "coordinates": [
+      4.85092538,
+      45.78717288
+    ]
+  },
+  {
+    "uid": "PAR-69034-013",
+    "nom": "Jardin d'Eden",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1213.0,
+    "coordinates": [
+      4.8391351,
+      45.78988296
+    ]
+  },
+  {
+    "uid": "PAR-69034-014",
+    "nom": "Parc de l'Usine des Eaux",
+    "adresse": "107 Grande Rue de Saint Clair",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 6426.0,
+    "coordinates": [
+      4.85611525,
+      45.78971059
+    ]
+  },
+  {
+    "uid": "PAR-69034-015",
+    "nom": "Parc des Berges",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 52547.0,
+    "coordinates": [
+      4.85267373,
+      45.78729445
+    ]
+  },
+  {
+    "uid": "PAR-69034-016",
+    "nom": "Place Bellevue",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1375.0,
+    "coordinates": [
+      4.84888278,
+      45.78593892
+    ]
+  },
+  {
+    "uid": "PAR-69034-017",
+    "nom": "Place Christophe Colomb",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1327.0,
+    "coordinates": [
+      4.85883312,
+      45.79059433
+    ]
+  },
+  {
+    "uid": "PAR-69034-018",
+    "nom": "Place de Cuire le Bas",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 720.0,
+    "coordinates": [
+      4.82855278,
+      45.79362919
+    ]
+  },
+  {
+    "uid": "PAR-69034-019",
+    "nom": "Place Gouailhardou",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 2270.0,
+    "coordinates": [
+      4.8455771,
+      45.79960036
+    ]
+  },
+  {
+    "uid": "PAR-69034-020",
+    "nom": "Place Gutenberg",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 7852.0,
+    "coordinates": [
+      4.84794839,
+      45.79493827
+    ]
+  },
+  {
+    "uid": "PAR-69034-021",
+    "nom": "Place Jules Ferry",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 916.0,
+    "coordinates": [
+      4.8324227,
+      45.78588502
+    ]
+  },
+  {
+    "uid": "PAR-69034-022",
+    "nom": "Place Laurent Bonnevay",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 4434.0,
+    "coordinates": [
+      4.84690692,
+      45.78820765
+    ]
+  },
+  {
+    "uid": "PAR-69034-023",
+    "nom": "Place Louis Braille",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1137.0,
+    "coordinates": [
+      4.85071125,
+      45.79389431
+    ]
+  },
+  {
+    "uid": "PAR-69034-024",
+    "nom": "Place Valentin Ha\u00fcy",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 2725.0,
+    "coordinates": [
+      4.8514763,
+      45.7942034
+    ]
+  },
+  {
+    "uid": "PAR-69034-025",
+    "nom": "Place Victor Basch",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 909.0,
+    "coordinates": [
+      4.8569457,
+      45.78990217
+    ]
+  },
+  {
+    "uid": "PAR-69034-026",
+    "nom": "Promenade Quai Bellevue",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 16234.0,
+    "coordinates": [
+      4.85238345,
+      45.78727792
+    ]
+  },
+  {
+    "uid": "PAR-69034-027",
+    "nom": "Roseraie de Montessuy",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 3850.0,
+    "coordinates": [
+      4.85021782,
+      45.79386166
+    ]
+  },
+  {
+    "uid": "PAR-69034-028",
+    "nom": "Roseraie de Saint Clair",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 21724.0,
+    "coordinates": [
+      4.85527392,
+      45.78831685
+    ]
+  },
+  {
+    "uid": "PAR-69034-029",
+    "nom": "Sentier du Bois de la Caille",
+    "adresse": "6 - 8 rue du Bois de la Caille",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 934.0,
+    "coordinates": [
+      4.82263714,
+      45.78741819
+    ]
+  },
+  {
+    "uid": "PAR-69034-030",
+    "nom": "Square Andr\u00e9 Lassagne",
+    "adresse": "25 Avenue du G\u00e9n\u00e9ral de Gaulle",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 8517.0,
+    "coordinates": [
+      4.85272296,
+      45.80634192
+    ]
+  },
+  {
+    "uid": "PAR-69034-031",
+    "nom": "Square Butte aux Indiens",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 13681.0,
+    "coordinates": [
+      4.84818045,
+      45.79401644
+    ]
+  },
+  {
+    "uid": "PAR-69034-032",
+    "nom": "Square Charles P\u00e9guy",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 755.0,
+    "coordinates": [
+      4.84762615,
+      45.78915549
+    ]
+  },
+  {
+    "uid": "PAR-69034-033",
+    "nom": "Square des AFN",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 2845.0,
+    "coordinates": [
+      4.85034037,
+      45.79849904
+    ]
+  },
+  {
+    "uid": "PAR-69034-034",
+    "nom": "Square des droits de l'enfant",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 716.0,
+    "coordinates": [
+      4.83893417,
+      45.79014189
+    ]
+  },
+  {
+    "uid": "PAR-69034-035",
+    "nom": "Square des Petits Bois",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 11353.0,
+    "coordinates": [
+      4.84887695,
+      45.79214557
+    ]
+  },
+  {
+    "uid": "PAR-69034-036",
+    "nom": "Square des Rondins",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 4725.0,
+    "coordinates": [
+      4.8484299,
+      45.78931609
+    ]
+  },
+  {
+    "uid": "PAR-69034-037",
+    "nom": "Square Edouard Herriot",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 490.0,
+    "coordinates": [
+      4.8385208,
+      45.7935229
+    ]
+  },
+  {
+    "uid": "PAR-69034-038",
+    "nom": "Square Elie Vignal",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 672.0,
+    "coordinates": [
+      4.83715646,
+      45.7852396
+    ]
+  },
+  {
+    "uid": "PAR-69034-039",
+    "nom": "Square Emile Thi\u00e9von",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 366.0,
+    "coordinates": [
+      4.86338326,
+      45.80141303
+    ]
+  },
+  {
+    "uid": "PAR-69034-040",
+    "nom": "Square G\u00e9n\u00e9ral Brosset",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1881.0,
+    "coordinates": [
+      4.86116115,
+      45.79133738
+    ]
+  },
+  {
+    "uid": "PAR-69034-041",
+    "nom": "Square Gilberte et Jean Nallit",
+    "adresse": "49 avenue G\u00e9n\u00e9ral de Gaulle",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1676.0,
+    "coordinates": [
+      4.85519291,
+      45.80802964
+    ]
+  },
+  {
+    "uid": "PAR-69034-042",
+    "nom": "Square Henri Dor",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 2544.0,
+    "coordinates": [
+      4.83551812,
+      45.78301161
+    ]
+  },
+  {
+    "uid": "PAR-69034-043",
+    "nom": "Square Jean Corbel",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 11996.0,
+    "coordinates": [
+      4.85172697,
+      45.79250256
+    ]
+  },
+  {
+    "uid": "PAR-69034-044",
+    "nom": "Square Jean Pellet",
+    "adresse": "216 chemin de Wette-Fays",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 671.0,
+    "coordinates": [
+      4.85581781,
+      45.78894625
+    ]
+  },
+  {
+    "uid": "PAR-69034-045",
+    "nom": "Square Joseph Basse",
+    "adresse": "36 rue Pierre Bourgeois",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 454.0,
+    "coordinates": [
+      4.86026425,
+      45.81086685
+    ]
+  },
+  {
+    "uid": "PAR-69034-046",
+    "nom": "Square Louis Dufour",
+    "adresse": "14 avenue Louis Dufour",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 2742.0,
+    "coordinates": [
+      4.85158891,
+      45.80011912
+    ]
+  },
+  {
+    "uid": "PAR-69034-047",
+    "nom": "Square Mick Micheyl",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 1092.0,
+    "coordinates": [
+      4.84234811,
+      45.79059193
+    ]
+  },
+  {
+    "uid": "PAR-69034-048",
+    "nom": "Square Niel",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 316.0,
+    "coordinates": [
+      4.83959774,
+      45.78138946
+    ]
+  },
+  {
+    "uid": "PAR-69034-049",
+    "nom": "Square Polnard",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 873.0,
+    "coordinates": [
+      4.84070288,
+      45.7829403
+    ]
+  },
+  {
+    "uid": "PAR-69034-050",
+    "nom": "Square Professeur Roux",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 321.0,
+    "coordinates": [
+      4.84431747,
+      45.7922192
+    ]
+  },
+  {
+    "uid": "PAR-69034-051",
+    "nom": "Stade ferr\u00e9",
+    "adresse": "15 Boulevard Paul Doumer",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 7770.0,
+    "coordinates": [
+      4.83541556,
+      45.79486456
+    ]
+  },
+  {
+    "uid": "PAR-69034-052",
+    "nom": "Voie Verte",
+    "adresse": "",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 101534.0,
+    "coordinates": [
+      4.8341773,
+      45.78612313
+    ]
+  },
+  {
+    "uid": "PAR-69034-053",
+    "nom": "Square Genevi\u00e8ve de Gaulle-Anthonioz",
+    "adresse": "22 rue Lucien Ma\u00eetre",
+    "codepost": 69300,
+    "commune": "Caluire-et-Cuire",
+    "surface_m2": 741.0,
+    "coordinates": [
+      4.82505511,
+      45.79001121
+    ]
+  },
+  {
+    "uid": "PAR-69286-034",
+    "nom": "Parc des Chantemerle",
+    "adresse": "1 Chemin de Chantemerle",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 10021.0,
+    "coordinates": [
+      4.90777738,
+      45.83120138
+    ]
+  },
+  {
+    "uid": "PAR-69286-035",
+    "nom": "Place du Ch\u00e2teau",
+    "adresse": "1 Place du Ch\u00e2teau",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 3262.0,
+    "coordinates": [
+      4.89387934,
+      45.82512138
+    ]
+  },
+  {
+    "uid": "PAR-69286-037",
+    "nom": "Parcs des L\u00f4nes",
+    "adresse": "1 Boulevard des Loisirs",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 37696.0,
+    "coordinates": [
+      4.90005488,
+      45.8054813
+    ]
+  },
+  {
+    "uid": "PAR-69286-038",
+    "nom": "Vallons du Ravins Ouest",
+    "adresse": "",
+    "codepost": 69140,
+    "commune": "Rillieux-la-Pape",
+    "surface_m2": 98932.0,
+    "coordinates": [
+      4.87980533,
+      45.82578158
+    ]
   }
 ]

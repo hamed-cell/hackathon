@@ -133,16 +133,9 @@ function GrassMap() {
     clearAllTimeouts(); // Clear existing timeouts
     const target = getRandomCoordinates();
     if (target) {
-      const { lng, lat, name, address } = target;
+      const { lng, lat, name, address, commune } = target;
 
-      const displayAddress = address ? address : "Lyon";
-
-      toast.info(`Vous allez toucher de l'herbe à ${name}, ${displayAddress}`, {
-        position: "top-center",
-        autoClose: false,
-        closeOnClick: true,
-        draggable: true,
-      });
+      const displayAddress = address || commune;
 
       if (targetMarker) {
         targetMarker.setLngLat([lng, lat]).setPopup(
