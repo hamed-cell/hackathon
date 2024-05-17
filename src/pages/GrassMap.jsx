@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./GrassMap.css";
@@ -59,22 +59,9 @@ function GrassMap() {
     "Quand tu dis 'bientôt', les gens prévoient en fait pour l'année prochaine."
   ];
 
-  useEffect(() => {
-    if (!map) {
-      toast.success("Bienvenue sur Va toucher de l'herbe!", {
-        position: "top-center",
-        autoClose: 5000,
-        closeOnClick: true,
-        draggable: true,
-      });
-      toast.info("Préparez-vous à explorer!", {
-        position: "top-center",
-        autoClose: 5000,
-        closeOnClick: true,
-        draggable: true,
-      });
-    }
+  const toastTimeouts = useRef([]);
 
+  useEffect(() => {
     const initializeMap = ({ setMap, mapboxgl }) => {
       const map = new mapboxgl.Map({
         container: "map",
@@ -87,7 +74,6 @@ function GrassMap() {
         setMap(map);
         map.resize();
 
-        // Add a global view then zoom to user location
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -100,7 +86,7 @@ function GrassMap() {
                 zoom: 14,
                 speed: 1.2,
                 curve: 1.42,
-                duration: 5000 // Longer duration for better optimization on mobile
+                duration: 2000 // Shorter duration for faster geolocation
               });
 
               const marker = new mapboxgl.Marker({ color: "blue" })
@@ -110,7 +96,7 @@ function GrassMap() {
               setUserMarker(marker);
             },
             (error) => console.error(error),
-            { enableHighAccuracy: true }
+            { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
           );
 
           navigator.geolocation.watchPosition(
@@ -118,7 +104,6 @@ function GrassMap() {
               const { longitude, latitude } = position.coords;
               setUserLocation([longitude, latitude]);
 
-              // Update user location marker without recentering the map
               if (userMarker) {
                 userMarker.setLngLat([longitude, latitude]);
               } else {
@@ -130,7 +115,7 @@ function GrassMap() {
               }
             },
             (error) => console.error(error),
-            { enableHighAccuracy: true }
+            { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
           );
         }
       });
@@ -139,15 +124,19 @@ function GrassMap() {
     if (!map) initializeMap({ setMap, mapboxgl });
   }, [map, userMarker]);
 
+  const clearAllTimeouts = () => {
+    toastTimeouts.current.forEach((timeout) => clearTimeout(timeout));
+    toastTimeouts.current = [];
+  };
+
   const setRandomTargetLocation = (map) => {
+    clearAllTimeouts(); // Clear existing timeouts
     const target = getRandomCoordinates();
     if (target) {
       const { lng, lat, name, address } = target;
 
-      // Remplacer l'adresse undefined par "Lyon"
       const displayAddress = address ? address : "Lyon";
 
-      // Afficher un toast en haut de l'écran avec l'adresse du nouveau point cible
       toast.info(`Vous allez toucher de l'herbe à ${name}, ${displayAddress}`, {
         position: "top-center",
         autoClose: false,
@@ -156,14 +145,10 @@ function GrassMap() {
       });
 
       if (targetMarker) {
-        // Update the existing marker and its popup
         targetMarker.setLngLat([lng, lat]).setPopup(
-          new mapboxgl.Popup({ offset: 25 }).setText(
-            `Point à atteindre: ${name}`
-          )
+          new mapboxgl.Popup({ offset: 25 }).setText(`Point à atteindre: ${name}`)
         ).addTo(map);
       } else {
-        // Create an HTML element for the custom marker
         const el = document.createElement('div');
         el.className = 'marker';
         el.style.backgroundColor = 'green';
@@ -174,26 +159,22 @@ function GrassMap() {
         const newTargetMarker = new mapboxgl.Marker(el)
           .setLngLat([lng, lat])
           .setPopup(
-            new mapboxgl.Popup({ offset: 25 }).setText(
-              `Point à atteindre: ${name}`
-            )
+            new mapboxgl.Popup({ offset: 25 }).setText(`Point à atteindre: ${name}`)
           )
           .addTo(map);
 
-        setTargetMarker(newTargetMarker); // Store the new marker
+        setTargetMarker(newTargetMarker);
       }
 
-      // Animate camera to the target location
       map.flyTo({
         center: [lng, lat],
         zoom: 14,
         speed: 1.2,
         curve: 1.42,
-        duration: 5000, // Duration to target location
+        duration: 3000, // Shorter duration to target location
         essential: true
       });
 
-      // Return the camera to the user's location after a delay
       setTimeout(() => {
         if (userLocation) {
           map.flyTo({
@@ -201,36 +182,34 @@ function GrassMap() {
             zoom: 14,
             speed: 1.2,
             curve: 1.42,
-            duration: 5000, // Duration for returning to user location
+            duration: 3000, // Shorter duration for returning to user location
             essential: true
           });
 
-          // Mettre à jour le message de la quête en cours
           setQuestMessage(`Vous allez toucher de l'herbe à ${name}, ${displayAddress}`);
         }
-      }, 8000); // Delay before returning to user location
+      }, 6000); // Reduced delay before returning to user location
 
-      // Get the route from the user location to the target location
       getRoute([lng, lat]);
 
-      // Delay the start of the encouragement messages by 10 seconds
-      setTimeout(() => {
-        encouragement.forEach((message, index) => {
-          setTimeout(() => {
-            toast(message, {
-              position: "bottom-center",
-              autoClose: 3000,
-              hideProgressBar: false,
-              closeOnClick: true,
-              pauseOnHover: true,
-              draggable: true,
-              progress: undefined,
-              theme: "light",
-              transition: Slide,
-            });
-          }, index * 4000); // Display each message 4 seconds apart
-        });
-      }, 10000); // 10 seconds delay
+      const initialDelay = 10000;
+      const interval = 6000;
+      encouragement.forEach((message, index) => {
+        const timeout = setTimeout(() => {
+          toast(message, {
+            position: "bottom-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Slide,
+          });
+        }, initialDelay + index * interval);
+        toastTimeouts.current.push(timeout);
+      });
     } else {
       console.error("Invalid coordinates");
     }
@@ -287,7 +266,7 @@ function GrassMap() {
     setRoute(route);
   };
 
-  const centerOnUserLocation = () => {
+  const centerOnUserLocation = useCallback(() => {
     if (userLocation && map) {
       map.flyTo({
         center: userLocation,
@@ -298,7 +277,7 @@ function GrassMap() {
         essential: true
       });
     }
-  };
+  }, [userLocation, map]);
 
   return (
     <div>
