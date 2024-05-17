@@ -5,7 +5,6 @@ import "./GrassMap.css";
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getRandomCoordinates } from "../randomCoordinates"; // Importez la fonction depuis le fichier
-import curseurImage from '../assets/curseur.png'; // Importez votre image de curseur
 
 function GrassMap() {
   mapboxgl.accessToken = "pk.eyJ1IjoiaGFtZWQxMiIsImEiOiJjbHc5MGh3d2YyYTltMnFweXNhZHgwYWw2In0.AVp8L6FfnEg_r8aRl6Qffw";
@@ -16,7 +15,6 @@ function GrassMap() {
   const [targetMarker, setTargetMarker] = useState(null); // Pour stocker le marqueur cible
   const [route, setRoute] = useState(null); // Pour stocker l'itinéraire
   const [questMessage, setQuestMessage] = useState(""); // Pour stocker le message de la quête en cours
-  const [isMapMoved, setIsMapMoved] = useState(false); // Pour suivre si l'utilisateur a déplacé la carte manuellement
 
   const encouragement = [
     "Tu es capable de grandes choses.",
@@ -76,9 +74,6 @@ function GrassMap() {
         setMap(map);
         map.resize();
 
-        // Détecter le déplacement manuel de la carte
-        map.on('dragstart', () => setIsMapMoved(true));
-
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(
             (position) => {
@@ -94,14 +89,7 @@ function GrassMap() {
                 duration: 2000 // Shorter duration for faster geolocation
               });
 
-              const el = document.createElement('div');
-              el.className = 'navigation-cursor';
-              el.style.backgroundImage = `url(${curseurImage})`;
-              el.style.backgroundSize = 'cover';
-              el.style.width = '30px';
-              el.style.height = '30px';
-
-              const marker = new mapboxgl.Marker(el)
+              const marker = new mapboxgl.Marker({ color: "blue" })
                 .setLngLat([longitude, latitude])
                 .addTo(map);
 
@@ -119,29 +107,11 @@ function GrassMap() {
               if (userMarker) {
                 userMarker.setLngLat([longitude, latitude]);
               } else {
-                const el = document.createElement('div');
-                el.className = 'navigation-cursor';
-                el.style.backgroundImage = `url(${curseurImage})`;
-                el.style.backgroundSize = 'cover';
-                el.style.width = '30px';
-                el.style.height = '30px';
-
-                const newUserMarker = new mapboxgl.Marker(el)
+                const marker = new mapboxgl.Marker({ color: "blue" })
                   .setLngLat([longitude, latitude])
                   .addTo(map);
 
-                setUserMarker(newUserMarker);
-              }
-
-              // Keep the map centered on the user's location if the map has not been moved manually
-              if (!isMapMoved) {
-                map.flyTo({
-                  center: [longitude, latitude],
-                  zoom: 14,
-                  speed: 1.2,
-                  curve: 1.42,
-                  essential: true // Disable animation if user interaction is in progress
-                });
+                setUserMarker(marker);
               }
             },
             (error) => console.error(error),
@@ -152,7 +122,7 @@ function GrassMap() {
     };
 
     if (!map) initializeMap({ setMap, mapboxgl });
-  }, [map, userMarker, isMapMoved]);
+  }, [map, userMarker]);
 
   const clearAllTimeouts = () => {
     toastTimeouts.current.forEach((timeout) => clearTimeout(timeout));
@@ -163,9 +133,16 @@ function GrassMap() {
     clearAllTimeouts(); // Clear existing timeouts
     const target = getRandomCoordinates();
     if (target) {
-      const { lng, lat, name, address, commune } = target;
+      const { lng, lat, name, address } = target;
 
-      const displayAddress = address || commune;
+      const displayAddress = address ? address : "Lyon";
+
+      toast.info(`Vous allez toucher de l'herbe à ${name}, ${displayAddress}`, {
+        position: "top-center",
+        autoClose: false,
+        closeOnClick: true,
+        draggable: true,
+      });
 
       if (targetMarker) {
         targetMarker.setLngLat([lng, lat]).setPopup(
@@ -291,7 +268,6 @@ function GrassMap() {
 
   const centerOnUserLocation = useCallback(() => {
     if (userLocation && map) {
-      setIsMapMoved(false); // Réinitialiser l'état de déplacement manuel
       map.flyTo({
         center: userLocation,
         zoom: 14,
