@@ -5,6 +5,7 @@ import "./GrassMap.css";
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getRandomCoordinates } from "../randomCoordinates"; // Importez la fonction depuis le fichier
+import curseurImage from '../assets/curseur.png'; // Importez votre image de curseur
 
 function GrassMap() {
   mapboxgl.accessToken = "pk.eyJ1IjoiaGFtZWQxMiIsImEiOiJjbHc5MGh3d2YyYTltMnFweXNhZHgwYWw2In0.AVp8L6FfnEg_r8aRl6Qffw";
@@ -89,7 +90,14 @@ function GrassMap() {
                 duration: 2000 // Shorter duration for faster geolocation
               });
 
-              const marker = new mapboxgl.Marker({ color: "blue" })
+              const el = document.createElement('div');
+              el.className = 'navigation-cursor';
+              el.style.backgroundImage = `url(${curseurImage})`;
+              el.style.backgroundSize = 'cover';
+              el.style.width = '30px';
+              el.style.height = '30px';
+
+              const marker = new mapboxgl.Marker(el)
                 .setLngLat([longitude, latitude])
                 .addTo(map);
 
@@ -107,12 +115,28 @@ function GrassMap() {
               if (userMarker) {
                 userMarker.setLngLat([longitude, latitude]);
               } else {
-                const marker = new mapboxgl.Marker({ color: "blue" })
+                const el = document.createElement('div');
+                el.className = 'navigation-cursor';
+                el.style.backgroundImage = `url(${curseurImage})`;
+                el.style.backgroundSize = 'cover';
+                el.style.width = '30px';
+                el.style.height = '30px';
+
+                const marker = new mapboxgl.Marker(el)
                   .setLngLat([longitude, latitude])
                   .addTo(map);
 
                 setUserMarker(marker);
               }
+
+              // Keep the map centered on the user's location
+              map.flyTo({
+                center: [longitude, latitude],
+                zoom: 14,
+                speed: 1.2,
+                curve: 1.42,
+                essential: true // Disable animation if user interaction is in progress
+              });
             },
             (error) => console.error(error),
             { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
