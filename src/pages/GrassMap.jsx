@@ -5,7 +5,6 @@ import "./GrassMap.css";
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { getRandomCoordinates } from "../randomCoordinates"; // Importez la fonction depuis le fichier
-import curseurImage from '../assets/curseur.png'; // Importez votre image de curseur
 
 function GrassMap() {
   mapboxgl.accessToken = "pk.eyJ1IjoiaGFtZWQxMiIsImEiOiJjbHc5MGh3d2YyYTltMnFweXNhZHgwYWw2In0.AVp8L6FfnEg_r8aRl6Qffw";
@@ -90,14 +89,7 @@ function GrassMap() {
                 duration: 2000 // Shorter duration for faster geolocation
               });
 
-              const el = document.createElement('div');
-              el.className = 'navigation-cursor';
-              el.style.backgroundImage = `url(${curseurImage})`;
-              el.style.backgroundSize = 'cover';
-              el.style.width = '30px';
-              el.style.height = '30px';
-
-              const marker = new mapboxgl.Marker(el)
+              const marker = new mapboxgl.Marker({ color: "blue" })
                 .setLngLat([longitude, latitude])
                 .addTo(map);
 
@@ -115,28 +107,12 @@ function GrassMap() {
               if (userMarker) {
                 userMarker.setLngLat([longitude, latitude]);
               } else {
-                const el = document.createElement('div');
-                el.className = 'navigation-cursor';
-                el.style.backgroundImage = `url(${curseurImage})`;
-                el.style.backgroundSize = 'cover';
-                el.style.width = '30px';
-                el.style.height = '30px';
-
-                const marker = new mapboxgl.Marker(el)
+                const marker = new mapboxgl.Marker({ color: "blue" })
                   .setLngLat([longitude, latitude])
                   .addTo(map);
 
                 setUserMarker(marker);
               }
-
-              // Keep the map centered on the user's location
-              map.flyTo({
-                center: [longitude, latitude],
-                zoom: 14,
-                speed: 1.2,
-                curve: 1.42,
-                essential: true // Disable animation if user interaction is in progress
-              });
             },
             (error) => console.error(error),
             { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
@@ -157,9 +133,16 @@ function GrassMap() {
     clearAllTimeouts(); // Clear existing timeouts
     const target = getRandomCoordinates();
     if (target) {
-      const { lng, lat, name, address, commune } = target;
+      const { lng, lat, name, address } = target;
 
-      const displayAddress = address || commune;
+      const displayAddress = address ? address : "Lyon";
+
+      toast.info(`Vous allez toucher de l'herbe à ${name}, ${displayAddress}`, {
+        position: "top-center",
+        autoClose: false,
+        closeOnClick: true,
+        draggable: true,
+      });
 
       if (targetMarker) {
         targetMarker.setLngLat([lng, lat]).setPopup(
